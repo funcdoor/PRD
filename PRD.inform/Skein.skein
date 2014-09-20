@@ -1,0 +1,5701 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x1def40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x1def40" />
+  <item nodeId="node-0x1def40">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+PRD
+An Interactive Fiction by func_door
+Release 1 / Serial number 140918 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+
+Staging Area
+You can see PC2, PC3 and PC4 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">NO</temporary>
+    <children>
+      <child nodeId="node-0x1defb0" />
+      <child nodeId="node-0x52d2aa0" />
+      <child nodeId="node-0x52d2410" />
+      <child nodeId="node-0x52d1ed0" />
+      <child nodeId="node-0x52d0810" />
+      <child nodeId="node-0x52cfb20" />
+      <child nodeId="node-0x52cf750" />
+      <child nodeId="node-0x52d2db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2db0">
+    <command xml:space="preserve">transform into venusaur</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="369">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2e20">
+    <command xml:space="preserve">transform myself into venusaur</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="369">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2e90">
+    <command xml:space="preserve">showme self</command>
+    <result xml:space="preserve">yourself - Player Character
+location: in Staging Area
+singular-named, proper-named; unlit, inedible, portable; male; ready-for-orders
+printed name: &quot;PC1&quot;
+printed plural name: &quot;Player Characters&quot;
+indefinite article: none
+description: &quot;As good-looking as ever.&quot;
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: PoisonType
+First Type: GrassType
+Level: 10
+Current Hit Points: 36
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the your former self waiting
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 1
+Priority: 0
+InitiativeOrder: 0
+PokeAbility: Stench
+Alignment: Friendly
+PokeSpecies: Venusaur
+Experience: 0
+SXP: 0
+SDXP: 0
+PDXP: 0
+SAXP: 0
+PAXP: 0
+HPXP: 0
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="369">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2f00">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (36/36) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="369">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2f70">
+    <command xml:space="preserve">use toxic on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Toxic on Alice!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="369">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2fe0">
+    <command xml:space="preserve">use toxic on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Toxic on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="369">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d3050" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d3050">
+    <command xml:space="preserve">use toxic on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Toxic on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="369">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d30c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d30c0">
+    <command xml:space="preserve">use toxic on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Toxic on Dan!
+
+Initiative: PC1, PC4, PC3, PC2, Alice, Bob, Carol and Dan.
+
+PC1 uses Toxic on Alice!
+Alice is inflicted with BadPoisoned!
+
+PC4 uses Toxic on Dan!
+Dan is inflicted with BadPoisoned!
+
+PC3 uses Toxic on Carol!
+Carol is inflicted with BadPoisoned!
+
+PC2 uses Toxic on Bob!
+Bob is inflicted with BadPoisoned!
+
+Alice uses Bite on PC2!
+PC2 is damaged for 3 (100% -&gt; 90%)
+
+Bob uses Bite on PC2!
+PC2 is damaged for 3 (90% -&gt; 79%)
+
+Carol uses Bite on PC2!
+PC2 is damaged for 3 (79% -&gt; 69%)
+
+Dan uses Bite on PC2!
+PC2 is damaged for 4 (69% -&gt; 55%)
+
+Alice dissolves from strong poison!
+Alice is damaged for 1 (100% -&gt; 94%)
+Bob dissolves from strong poison!
+Bob is damaged for 1 (100% -&gt; 94%)
+Carol dissolves from strong poison!
+Carol is damaged for 1 (100% -&gt; 94%)
+Dan dissolves from strong poison!
+Dan is damaged for 1 (100% -&gt; 94%)
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (36/36) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="368">YES</temporary>
+  </item>
+  <item nodeId="node-0x52cf750">
+    <command xml:space="preserve">transform self into venusaur</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="377">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf880" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf880">
+    <command xml:space="preserve">transform pc2 into venusaur</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="377">YES</temporary>
+    <children>
+      <child nodeId="node-0x1df230" />
+    </children>
+  </item>
+  <item nodeId="node-0x1df230">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (36/36) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="377">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf8f0">
+    <command xml:space="preserve">verbose combat</command>
+    <result xml:space="preserve">Enabling verbose combat.
+
+What will PC1 (36/36) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="377">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf960" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf960">
+    <command xml:space="preserve">use toxic on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Toxic on Alice!
+
+What will PC2 (36/36) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="377">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf9d0">
+    <command xml:space="preserve">use toxic on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Toxic on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="377">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfa40" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfa40">
+    <command xml:space="preserve">use toxic on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Toxic on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="377">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfab0">
+    <command xml:space="preserve">use toxic on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Toxic on Dan!
+
+Initiative: PC2, PC1, PC4, PC3, Alice, Bob, Carol and Dan.
+
+PC2 uses Toxic on Bob!
+Move accuracy 0.
+crit chance level is 0.
+Bob is inflicted with BadPoisoned!
+
+PC1 uses Toxic on Alice!
+Move accuracy 0.
+crit chance level is 0.
+Alice is inflicted with BadPoisoned!
+
+PC4 uses Toxic on Dan!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+Dan is inflicted with BadPoisoned!
+
+PC3 uses Toxic on Carol!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+Carol is inflicted with BadPoisoned!
+
+Alice uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 21, power 60.
+before modifiers: 3.
+modified by type effectiveness: 3.
+modified by random variation: 2.
+PC2 is damaged for 2 (100% -&gt; 94%)
+
+Bob uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 21, power 60.
+before modifiers: 3.
+modified by type effectiveness: 3.
+modified by random variation: 3.
+PC2 is damaged for 3 (94% -&gt; 86%)
+PC2 is inflicted with Flinching!
+
+Carol uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 21, power 60.
+before modifiers: 3.
+modified by type effectiveness: 3.
+modified by random variation: 3.
+PC2 is damaged for 3 (86% -&gt; 78%)
+
+Dan uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 21, power 60.
+before modifiers: 3.
+modified by type effectiveness: 3.
+modified by random variation: 3.
+PC2 is damaged for 3 (78% -&gt; 69%)
+PC2 is inflicted with Flinching!
+
+Alice dissolves from strong poison!
+Alice is damaged for 1 (100% -&gt; 94%)
+Bob dissolves from strong poison!
+Bob is damaged for 1 (100% -&gt; 94%)
+Carol dissolves from strong poison!
+Carol is damaged for 1 (100% -&gt; 94%)
+Dan dissolves from strong poison!
+Dan is damaged for 1 (100% -&gt; 94%)
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (36/36) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+  </item>
+  <item nodeId="node-0x52cfb20">
+    <command xml:space="preserve">nor</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf7c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf7c0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+Obvious exits: south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf810" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf810">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfd10" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfd10">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Dungeon Entrance
+Obvious exits: east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfd80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfdf0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Jumble
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfe60" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfe60">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfed0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cff40" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cff40">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cffb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cffb0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0020" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0020">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0090" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0090">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dungeon Entrance
+Obvious exits: east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0100" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0100">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Jumble
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0170" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0170">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfb90">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfc00">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dungeon Entrance
+Obvious exits: east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cfc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cfc70">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Jumble
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0420" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0420">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0490" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0490">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0500" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0500">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0570" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0570">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dungeon Entrance
+Obvious exits: east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d05e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d05e0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Tunnel
+Obvious exits: north east west south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0650" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0650">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Dungeon Entrance
+Obvious exits: east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d06c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d06c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Obvious exits: east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0730" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0730">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Tunnel
+Obvious exits: north east west south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="525">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d07a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d07a0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Maze
+Obvious exits: north east south 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="524">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d0810">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1a00" />
+      <child nodeId="node-0x52d17d0" />
+      <child nodeId="node-0x52d1370" />
+      <child nodeId="node-0x52d0880" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0880">
+    <command xml:space="preserve">use bite on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Bite on Alice!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d08f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d08f0">
+    <command xml:space="preserve">use bite on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Bite on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0960" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0960">
+    <command xml:space="preserve">use bite on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Bite on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1140" />
+      <child nodeId="node-0x52d09d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d09d0">
+    <command xml:space="preserve">use heal block</command>
+    <result xml:space="preserve">okay, PC4 will use Heal Block on PC4!
+
+PC4 uses Heal Block!
+
+PC3 uses Bite on Carol!
+Carol is damaged for 14 (100% -&gt; 18%)
+
+PC2 uses Bite on Bob!
+Bob is damaged for 11 (100% -&gt; 35%)
+
+PC1 uses Bite on Alice!
+Alice is damaged for 11 (100% -&gt; 35%)
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0a40">
+    <command xml:space="preserve">showme alice</command>
+    <result xml:space="preserve">Alice - Monster
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male
+printed name: &quot;Alice&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 6
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: Alice using Milk Drink on nothing
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 1
+Priority: 0
+InitiativeOrder: 8
+cond_HealBlock: 4
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0ab0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC1 will use Bulk Up on PC1!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0b20" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0b20">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d01e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d01e0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0250" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0250">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+PC4 uses Bulk Up!
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC3 uses Bulk Up!
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC2 uses Bulk Up!
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Bulk Up!
+PC1&apos;s Physical Attack and Physical Defense rose by 1!
+
+
+== Starting Round 3 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d02c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d02c0">
+    <command xml:space="preserve">verbose combat</command>
+    <result xml:space="preserve">Enabling verbose combat.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0330" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0330">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC1 will use Bulk Up on PC1!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d03a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d03a0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0b90">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0c00">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+PC4 uses Bulk Up!
+Move accuracy 0.
+crit chance level is 0.
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC3 uses Bulk Up!
+Move accuracy 0.
+crit chance level is 0.
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC2 uses Bulk Up!
+Move accuracy 0.
+crit chance level is 0.
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Bulk Up!
+Move accuracy 0.
+crit chance level is 0.
+PC1&apos;s Physical Attack and Physical Defense rose by 1!
+
+
+== Starting Round 4 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0c70">
+    <command xml:space="preserve">showme alice</command>
+    <result xml:space="preserve">Alice - Monster
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male
+printed name: &quot;Alice&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 6
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: Alice using Milk Drink on nothing
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 1
+Priority: 0
+InitiativeOrder: 8
+cond_HealBlock: 2
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0ce0">
+    <command xml:space="preserve">use milk drink</command>
+    <result xml:space="preserve">okay, PC1 will use Milk Drink on PC1!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0d50">
+    <command xml:space="preserve">use milk drink</command>
+    <result xml:space="preserve">okay, PC2 will use Milk Drink on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0dc0">
+    <command xml:space="preserve">use milk drink</command>
+    <result xml:space="preserve">okay, PC3 will use Milk Drink on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0e30">
+    <command xml:space="preserve">use milk drink</command>
+    <result xml:space="preserve">okay, PC4 will use Milk Drink on PC4!
+
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+PC4 uses Milk Drink!
+Move accuracy 0.
+crit chance level is 0.
+PC4 is healed for 0 (100% -&gt; 100%)
+
+PC3 uses Milk Drink!
+Move accuracy 0.
+crit chance level is 0.
+PC3 is healed for 0 (100% -&gt; 100%)
+
+PC2 uses Milk Drink!
+Move accuracy 0.
+crit chance level is 0.
+PC2 is healed for 0 (100% -&gt; 100%)
+
+PC1 uses Milk Drink!
+Move accuracy 0.
+crit chance level is 0.
+PC1 is healed for 0 (100% -&gt; 100%)
+
+
+== Starting Round 5 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0ea0">
+    <command xml:space="preserve">activities</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0f10">
+    <command xml:space="preserve">rules all</command>
+    <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0f80" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0f80">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;hit yourself in confusion instead rule&quot; does not apply (wrong action).]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; applies.]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Carry out using it on during combat&quot; applies.]
+okay, PC1 will use Bulk Up on PC1!
+[Rule &quot;after stage rule&quot; applies.]
+
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;A first turn sequence rule&quot; applies.]
+[Rule &quot;every turn stage rule&quot; applies.]
+[Rule &quot;Every turn when coord-test-on is true&quot; does not apply (wrong context).]
+[Rule &quot;Combat Round Rule&quot; applies.]
+[Rule &quot;A last turn sequence rule&quot; applies.]
+[Rule &quot;notify score changes rule&quot; applies.]
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d0ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d0ff0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;hit yourself in confusion instead rule&quot; does not apply (wrong action).]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; applies.]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Carry out using it on during combat&quot; applies.]
+okay, PC2 will use Bulk Up on PC2!
+[Rule &quot;after stage rule&quot; applies.]
+
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;A first turn sequence rule&quot; applies.]
+[Rule &quot;every turn stage rule&quot; applies.]
+[Rule &quot;Every turn when coord-test-on is true&quot; does not apply (wrong context).]
+[Rule &quot;Combat Round Rule&quot; applies.]
+[Rule &quot;A last turn sequence rule&quot; applies.]
+[Rule &quot;notify score changes rule&quot; applies.]
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1060" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1060">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;hit yourself in confusion instead rule&quot; does not apply (wrong action).]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; applies.]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Carry out using it on during combat&quot; applies.]
+okay, PC3 will use Bulk Up on PC3!
+[Rule &quot;after stage rule&quot; applies.]
+
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;A first turn sequence rule&quot; applies.]
+[Rule &quot;every turn stage rule&quot; applies.]
+[Rule &quot;Every turn when coord-test-on is true&quot; does not apply (wrong context).]
+[Rule &quot;Combat Round Rule&quot; applies.]
+[Rule &quot;A last turn sequence rule&quot; applies.]
+[Rule &quot;notify score changes rule&quot; applies.]
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d10d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d10d0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Before a pokemon doing something during combat&quot; does not apply (wrong action).]
+[Rule &quot;hit yourself in confusion instead rule&quot; does not apply (wrong action).]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; applies.]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Carry out using it on during combat&quot; applies.]
+okay, PC4 will use Bulk Up on PC4!
+[Rule &quot;after stage rule&quot; applies.]
+
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;A first turn sequence rule&quot; applies.]
+[Rule &quot;every turn stage rule&quot; applies.]
+[Rule &quot;Every turn when coord-test-on is true&quot; does not apply (wrong context).]
+[Rule &quot;Combat Round Rule&quot; applies.]
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;hit yourself in confusion instead rule&quot; applies.]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;player aware of actions by visible actors rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; applies.]
+PC4 uses Bulk Up!
+[Rule &quot;initialize variables rule&quot; applies.]
+[Rule &quot;flail reversal huskar rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Crush Grip or current move is Wring Out&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Water Spout or current move is Eruption&quot; does not apply (wrong context).]
+[Rule &quot;Toxic Always Hits for Poison Types Rule&quot; does not apply (wrong context).]
+[Rule &quot;Hex harms the inflicted rule&quot; does not apply (wrong context).]
+[Rule &quot;Venoshock harms the envenomed rule&quot; does not apply (wrong context).]
+[Rule &quot;Brine harms the injured rule&quot; does not apply (wrong context).]
+[Rule &quot;smelling salts mercy rule&quot; does not apply (wrong context).]
+[Rule &quot;wake-up slap wakes sleeping rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Facade&quot; does not apply (wrong context).]
+[Rule &quot;magnitude random power rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Stored Power&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Punishment&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Electro Ball&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Gyro Ball&quot; does not apply (wrong context).]
+[Rule &quot;type immunities rule&quot; applies.]
+[Rule &quot;standard stat self-lowering rule&quot; applies.]
+[Rule &quot;accuracy evasion rule&quot; applies.]
+Move accuracy 0.
+[Rule &quot;determining crits rule&quot; applies.]
+crit chance level is 0.
+[Rule &quot;decide damage rule&quot; applies.]
+[Rule &quot;light screen reduces special damage rule&quot; applies.]
+[Rule &quot;reflect reduces physical damage rule&quot; applies.]
+[Rule &quot;substitute blocks stuff rule&quot; does not apply (wrong context).]
+[Rule &quot;Deal Combat Damage To Target Pokemon rule&quot; applies.]
+[Rule &quot;use Heal Block rule&quot; does not apply (wrong context).]
+[Rule &quot;use leech seed rule&quot; does not apply (wrong context).]
+[Rule &quot;standard inflict flinch rule&quot; applies.]
+[Rule &quot;standard inflict confusion rule&quot; applies.]
+[Rule &quot;standard inflict status problem rule&quot; applies.]
+[Rule &quot;standard drain move rule&quot; applies.]
+[Rule &quot;standard stat modifying rule&quot; applies.]
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+[Rule &quot;use Substitute rule&quot; applies.]
+[Rule &quot;use Reflect rule&quot; applies.]
+[Rule &quot;use Light Screen rule&quot; applies.]
+[Rule &quot;do healing for healing moves rule&quot; applies.]
+[Rule &quot;do recoil for recoil moves rule&quot; applies.]
+[Rule &quot;fire thaws frozen rule&quot; applies.]
+
+[Rule &quot;Carry out using it on during combat&quot; does not apply (wrong actor).]
+[Rule &quot;after stage rule&quot; applies.]
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;hit yourself in confusion instead rule&quot; applies.]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;player aware of actions by visible actors rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; applies.]
+PC3 uses Bulk Up!
+[Rule &quot;initialize variables rule&quot; applies.]
+[Rule &quot;flail reversal huskar rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Crush Grip or current move is Wring Out&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Water Spout or current move is Eruption&quot; does not apply (wrong context).]
+[Rule &quot;Toxic Always Hits for Poison Types Rule&quot; does not apply (wrong context).]
+[Rule &quot;Hex harms the inflicted rule&quot; does not apply (wrong context).]
+[Rule &quot;Venoshock harms the envenomed rule&quot; does not apply (wrong context).]
+[Rule &quot;Brine harms the injured rule&quot; does not apply (wrong context).]
+[Rule &quot;smelling salts mercy rule&quot; does not apply (wrong context).]
+[Rule &quot;wake-up slap wakes sleeping rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Facade&quot; does not apply (wrong context).]
+[Rule &quot;magnitude random power rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Stored Power&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Punishment&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Electro Ball&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Gyro Ball&quot; does not apply (wrong context).]
+[Rule &quot;type immunities rule&quot; applies.]
+[Rule &quot;standard stat self-lowering rule&quot; applies.]
+[Rule &quot;accuracy evasion rule&quot; applies.]
+Move accuracy 0.
+[Rule &quot;determining crits rule&quot; applies.]
+crit chance level is 0.
+[Rule &quot;decide damage rule&quot; applies.]
+[Rule &quot;light screen reduces special damage rule&quot; applies.]
+[Rule &quot;reflect reduces physical damage rule&quot; applies.]
+[Rule &quot;substitute blocks stuff rule&quot; does not apply (wrong context).]
+[Rule &quot;Deal Combat Damage To Target Pokemon rule&quot; applies.]
+[Rule &quot;use Heal Block rule&quot; does not apply (wrong context).]
+[Rule &quot;use leech seed rule&quot; does not apply (wrong context).]
+[Rule &quot;standard inflict flinch rule&quot; applies.]
+[Rule &quot;standard inflict confusion rule&quot; applies.]
+[Rule &quot;standard inflict status problem rule&quot; applies.]
+[Rule &quot;standard drain move rule&quot; applies.]
+[Rule &quot;standard stat modifying rule&quot; applies.]
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+[Rule &quot;use Substitute rule&quot; applies.]
+[Rule &quot;use Reflect rule&quot; applies.]
+[Rule &quot;use Light Screen rule&quot; applies.]
+[Rule &quot;do healing for healing moves rule&quot; applies.]
+[Rule &quot;do recoil for recoil moves rule&quot; applies.]
+[Rule &quot;fire thaws frozen rule&quot; applies.]
+
+[Rule &quot;Carry out using it on during combat&quot; does not apply (wrong actor).]
+[Rule &quot;after stage rule&quot; applies.]
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;hit yourself in confusion instead rule&quot; applies.]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;player aware of actions by visible actors rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; applies.]
+PC2 uses Bulk Up!
+[Rule &quot;initialize variables rule&quot; applies.]
+[Rule &quot;flail reversal huskar rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Crush Grip or current move is Wring Out&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Water Spout or current move is Eruption&quot; does not apply (wrong context).]
+[Rule &quot;Toxic Always Hits for Poison Types Rule&quot; does not apply (wrong context).]
+[Rule &quot;Hex harms the inflicted rule&quot; does not apply (wrong context).]
+[Rule &quot;Venoshock harms the envenomed rule&quot; does not apply (wrong context).]
+[Rule &quot;Brine harms the injured rule&quot; does not apply (wrong context).]
+[Rule &quot;smelling salts mercy rule&quot; does not apply (wrong context).]
+[Rule &quot;wake-up slap wakes sleeping rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Facade&quot; does not apply (wrong context).]
+[Rule &quot;magnitude random power rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Stored Power&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Punishment&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Electro Ball&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Gyro Ball&quot; does not apply (wrong context).]
+[Rule &quot;type immunities rule&quot; applies.]
+[Rule &quot;standard stat self-lowering rule&quot; applies.]
+[Rule &quot;accuracy evasion rule&quot; applies.]
+Move accuracy 0.
+[Rule &quot;determining crits rule&quot; applies.]
+crit chance level is 0.
+[Rule &quot;decide damage rule&quot; applies.]
+[Rule &quot;light screen reduces special damage rule&quot; applies.]
+[Rule &quot;reflect reduces physical damage rule&quot; applies.]
+[Rule &quot;substitute blocks stuff rule&quot; does not apply (wrong context).]
+[Rule &quot;Deal Combat Damage To Target Pokemon rule&quot; applies.]
+[Rule &quot;use Heal Block rule&quot; does not apply (wrong context).]
+[Rule &quot;use leech seed rule&quot; does not apply (wrong context).]
+[Rule &quot;standard inflict flinch rule&quot; applies.]
+[Rule &quot;standard inflict confusion rule&quot; applies.]
+[Rule &quot;standard inflict status problem rule&quot; applies.]
+[Rule &quot;standard drain move rule&quot; applies.]
+[Rule &quot;standard stat modifying rule&quot; applies.]
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+[Rule &quot;use Substitute rule&quot; applies.]
+[Rule &quot;use Reflect rule&quot; applies.]
+[Rule &quot;use Light Screen rule&quot; applies.]
+[Rule &quot;do healing for healing moves rule&quot; applies.]
+[Rule &quot;do recoil for recoil moves rule&quot; applies.]
+[Rule &quot;fire thaws frozen rule&quot; applies.]
+
+[Rule &quot;Carry out using it on during combat&quot; does not apply (wrong actor).]
+[Rule &quot;after stage rule&quot; applies.]
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;Before a pokemon doing something during combat&quot; applies.]
+[Rule &quot;hit yourself in confusion instead rule&quot; applies.]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of doing something other than using when combat is happening&quot; does not apply (wrong action).]
+[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
+[Rule &quot;player aware of his own actions rule&quot; applies.]
+[Rule &quot;player aware of actions by visible actors rule&quot; applies.]
+[Rule &quot;check stage rule&quot; applies.]
+[Rule &quot;Check using a pokemove on something during combat&quot; does not apply (wrong action).]
+[Rule &quot;Check using substitute on something&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;Check someone using leech seed on&quot; does not apply (wrong action).]
+[Rule &quot;carry out stage rule&quot; applies.]
+[Rule &quot;Carry out someone using a pokemove on something during combat&quot; applies.]
+PC1 uses Bulk Up!
+[Rule &quot;initialize variables rule&quot; applies.]
+[Rule &quot;flail reversal huskar rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Crush Grip or current move is Wring Out&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Water Spout or current move is Eruption&quot; does not apply (wrong context).]
+[Rule &quot;Toxic Always Hits for Poison Types Rule&quot; does not apply (wrong context).]
+[Rule &quot;Hex harms the inflicted rule&quot; does not apply (wrong context).]
+[Rule &quot;Venoshock harms the envenomed rule&quot; does not apply (wrong context).]
+[Rule &quot;Brine harms the injured rule&quot; does not apply (wrong context).]
+[Rule &quot;smelling salts mercy rule&quot; does not apply (wrong context).]
+[Rule &quot;wake-up slap wakes sleeping rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Facade&quot; does not apply (wrong context).]
+[Rule &quot;magnitude random power rule&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Stored Power&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Punishment&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Electro Ball&quot; does not apply (wrong context).]
+[Rule &quot;Before performing move effects while current move is Gyro Ball&quot; does not apply (wrong context).]
+[Rule &quot;type immunities rule&quot; applies.]
+[Rule &quot;standard stat self-lowering rule&quot; applies.]
+[Rule &quot;accuracy evasion rule&quot; applies.]
+Move accuracy 0.
+[Rule &quot;determining crits rule&quot; applies.]
+crit chance level is 0.
+[Rule &quot;decide damage rule&quot; applies.]
+[Rule &quot;light screen reduces special damage rule&quot; applies.]
+[Rule &quot;reflect reduces physical damage rule&quot; applies.]
+[Rule &quot;substitute blocks stuff rule&quot; does not apply (wrong context).]
+[Rule &quot;Deal Combat Damage To Target Pokemon rule&quot; applies.]
+[Rule &quot;use Heal Block rule&quot; does not apply (wrong context).]
+[Rule &quot;use leech seed rule&quot; does not apply (wrong context).]
+[Rule &quot;standard inflict flinch rule&quot; applies.]
+[Rule &quot;standard inflict confusion rule&quot; applies.]
+[Rule &quot;standard inflict status problem rule&quot; applies.]
+[Rule &quot;standard drain move rule&quot; applies.]
+[Rule &quot;standard stat modifying rule&quot; applies.]
+PC1&apos;s Physical Attack and Physical Defense rose by 1!
+[Rule &quot;use Substitute rule&quot; applies.]
+[Rule &quot;use Reflect rule&quot; applies.]
+[Rule &quot;use Light Screen rule&quot; applies.]
+[Rule &quot;do healing for healing moves rule&quot; applies.]
+[Rule &quot;do recoil for recoil moves rule&quot; applies.]
+[Rule &quot;fire thaws frozen rule&quot; applies.]
+
+[Rule &quot;Carry out using it on during combat&quot; does not apply (wrong actor).]
+[Rule &quot;after stage rule&quot; applies.]
+[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
+[Rule &quot;report stage rule&quot; applies.]
+[Rule &quot;last specific action-processing rule&quot; applies.]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; does not apply (wrong context).]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; does not apply (wrong context).]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; does not apply (wrong context).]
+[Rule &quot;Rule for supplying a missing second noun while using&quot; does not apply (wrong context).]
+[Rule &quot;initiate per-character round-end rule&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;before performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing per-character round-end on a burning thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;sleep round-end rule&quot; does not apply (wrong action).]
+[Rule &quot;For performing per-character round-end on a poisoned thing ( called P )&quot; does not apply (wrong action).]
+[Rule &quot;remove flinch rule&quot; applies.]
+[Rule &quot;decrement heal block counters rule&quot; applies.]
+[Rule &quot;For performing per-character round-end on a thing ( called P )&quot; applies.]
+[Rule &quot;For performing end of round&quot; applies.]
+
+== Starting Round 6 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+[Rule &quot;A last turn sequence rule&quot; applies.]
+[Rule &quot;notify score changes rule&quot; applies.]
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d1140">
+    <command xml:space="preserve">use bite on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Bite on Dan!
+
+PC4 uses Bite on Dan!
+Dan is damaged for 11 (100% -&gt; 35%)
+
+PC3 uses Bite on Carol!
+Carol is damaged for 13 (100% -&gt; 24%)
+
+PC2 uses Bite on Bob!
+Bob is damaged for 14 (100% -&gt; 18%)
+
+PC1 uses Bite on Alice!
+Alice is damaged for 12 (100% -&gt; 29%)
+
+Alice uses Milk Drink!
+Alice is healed for 8 (29% -&gt; 76%)
+
+Bob uses Milk Drink!
+Bob is healed for 8 (18% -&gt; 65%)
+
+Carol Flinched and couldn&apos;t act!
+
+Dan uses Milk Drink!
+Dan is healed for 8 (35% -&gt; 82%)
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d11b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d11b0">
+    <command xml:space="preserve">use bite on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Bite on Alice!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1220" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1220">
+    <command xml:space="preserve">use bite on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Bite on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1290" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1290">
+    <command xml:space="preserve">use bite on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Bite on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1300" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1300">
+    <command xml:space="preserve">use heal block</command>
+    <result xml:space="preserve">okay, PC4 will use Heal Block on PC4!
+
+PC4 uses Heal Block!
+Heal Block prevents healing!
+Heal Block prevents healing!
+Heal Block prevents healing!
+Heal Block prevents healing!
+
+PC3 uses Bite on Carol!
+Carol is damaged for 12 (71% -&gt; 0%)
+Heal Block prevents healing!
+
+PC2 uses Bite on Bob!
+Bob is damaged for 13 (82% -&gt; 6%)
+Heal Block prevents healing!
+
+PC1 uses Bite on Alice!
+Alice is damaged for 11 (82% -&gt; 18%)
+Heal Block prevents healing!
+
+Alice uses Milk Drink!
+Heal Block prevents healing!
+Heal Block prevents healing!
+
+Bob uses Milk Drink!
+Heal Block prevents healing!
+Heal Block prevents healing!
+
+Carol uses Milk Drink!
+Heal Block prevents healing!
+Heal Block prevents healing!
+
+Dan uses Milk Drink!
+Heal Block prevents healing!
+Heal Block prevents healing!
+
+
+== Starting Round 3 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d1370">
+    <command xml:space="preserve">bulk up</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1610" />
+      <child nodeId="node-0x52d13e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d13e0">
+    <command xml:space="preserve">bulk up</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1450" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1450">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC1 will use Bulk Up on PC1!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d14c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d14c0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1530" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1530">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d15a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d15a0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+PC4 uses Bulk Up!
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC3 uses Bulk Up!
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC2 uses Bulk Up!
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Bulk Up!
+PC1&apos;s Physical Attack and Physical Defense rose by 1!
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d1610">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC1 will use Bulk Up on PC1!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1680" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1680">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d16f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d16f0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1760" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1760">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+PC4 uses Bulk Up!
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC3 uses Bulk Up!
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC2 uses Bulk Up!
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Bulk Up!
+PC1&apos;s Physical Attack and Physical Defense rose by 1!
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d17d0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You must USE &lt;some move you know&gt; ON &lt;some target in this battle&gt;
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1840" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1840">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC1 will use Bulk Up on PC1!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d18b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d18b0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1920" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1920">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1990" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1990">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+PC4 uses Bulk Up!
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC3 uses Bulk Up!
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC2 uses Bulk Up!
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Bulk Up!
+PC1&apos;s Physical Attack and Physical Defense rose by 1!
+
+Alice uses Bite!
+Alice is damaged for 5 (100% -&gt; 71%)
+
+Bob uses Bite!
+Bob is damaged for 4 (100% -&gt; 76%)
+
+Carol uses Bite!
+Carol is damaged for 5 (100% -&gt; 71%)
+
+Dan uses Bite!
+Dan is damaged for 4 (100% -&gt; 76%)
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="79">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d1a00">
+    <command xml:space="preserve">use leech seed on bob</command>
+    <result xml:space="preserve">okay, PC1 will use Leech Seed on Bob!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1d80" />
+      <child nodeId="node-0x52d1a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1a70">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You must USE &lt;some move you know&gt; ON &lt;some target in this battle&gt;
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1ae0">
+    <command xml:space="preserve">bulk up</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1b50">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1bc0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1c30">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+PC4 uses Bulk Up!
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC3 uses Bulk Up!
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC2 uses Bulk Up!
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Leech Seed on Bob!
+Move misses!
+
+Alice uses Bite on PC2!
+It&apos;s a critical hit!
+PC2 is damaged for 4 (100% -&gt; 86%)
+
+Bob uses Bite on PC2!
+PC2 is damaged for 2 (86% -&gt; 79%)
+
+Carol uses Bite on PC2!
+PC2 is damaged for 2 (79% -&gt; 72%)
+
+Dan uses Bite on PC2!
+PC2 is damaged for 3 (72% -&gt; 62%)
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1ca0">
+    <command xml:space="preserve">showme pc1</command>
+    <result xml:space="preserve">There seems to be no such object anywhere in the model world.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1d10">
+    <command xml:space="preserve">showme all</command>
+    <result xml:space="preserve">Alice - Monster
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male
+printed name: &quot;Alice&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: Alice using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 1
+Priority: 0
+InitiativeOrder: 8
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Bob - Monster
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male
+printed name: &quot;Bob&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: Bob using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 2
+Priority: 0
+InitiativeOrder: 8
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Carol - Monster
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male
+printed name: &quot;Carol&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: Carol using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 3
+Priority: 0
+InitiativeOrder: 8
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Dan - Monster
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male
+printed name: &quot;Dan&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: Dan using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 4
+Priority: 0
+InitiativeOrder: 8
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+PC1 - Player Character
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male; ready-for-orders
+printed name: &quot;PC1&quot;
+printed plural name: &quot;Player Characters&quot;
+indefinite article: none
+description: &quot;As good-looking as ever.&quot;
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 10
+Current Hit Points: 29
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: PC1 using Leech Seed on Bob
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 1
+Priority: 0
+InitiativeOrder: 14
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Friendly
+PokeSpecies: Bulbasaur
+Experience: 0
+SXP: 0
+SDXP: 0
+PDXP: 0
+SAXP: 0
+PAXP: 0
+HPXP: 0
+PC2 - Player Character
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male; ready-for-orders
+printed name: &quot;PC2&quot;
+printed plural name: &quot;Player Characters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 10
+Current Hit Points: 18
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 1
+PhysAttMod: 1
+Queued Action: PC2 using Bulk Up on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 2
+Priority: 0
+InitiativeOrder: 14
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Friendly
+PokeSpecies: Bulbasaur
+Experience: 0
+SXP: 0
+SDXP: 0
+PDXP: 0
+SAXP: 0
+PAXP: 0
+HPXP: 0
+PC3 - Player Character
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male; ready-for-orders
+printed name: &quot;PC3&quot;
+printed plural name: &quot;Player Characters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 10
+Current Hit Points: 29
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 1
+PhysAttMod: 1
+Queued Action: PC3 using Bulk Up on PC3
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 3
+Priority: 0
+InitiativeOrder: 14
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Friendly
+PokeSpecies: Bulbasaur
+Experience: 0
+SXP: 0
+SDXP: 0
+PDXP: 0
+SAXP: 0
+PAXP: 0
+HPXP: 0
+PC4 - Player Character
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male; ready-for-orders
+printed name: &quot;PC4&quot;
+printed plural name: &quot;Player Characters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 10
+Current Hit Points: 29
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 1
+PhysAttMod: 1
+Queued Action: PC4 using Bulk Up on PC4
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 4
+Priority: 0
+InitiativeOrder: 14
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Friendly
+PokeSpecies: Bulbasaur
+Experience: 0
+SXP: 0
+SDXP: 0
+PDXP: 0
+SAXP: 0
+PAXP: 0
+HPXP: 0
+Test Chamber - room
+    yourself - person
+    PC4 - Player Character
+    PC3 - Player Character
+    PC2 - Player Character
+    PC1 - Player Character
+    Alice - Monster
+    Bob - Monster
+    Carol - Monster
+    Dan - Monster
+singular-named, proper-named; lighted, visited, absent from the coordinate system
+printed name: &quot;Test Chamber&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+your former self - person
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;your former self&quot;
+printed plural name: &quot;people&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Maze - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Maze&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Jumble - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Jumble&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Maze - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Maze&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Maze - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Maze&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Hallway - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Hallway&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Tunnel - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Tunnel&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Scramble - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Scramble&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Passage - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Passage&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Passage - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Passage&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Scramble - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Scramble&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Passage - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Passage&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Passage - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Passage&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Tunnel - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Tunnel&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Hallway - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Hallway&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Jumble - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Jumble&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Maze - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Maze&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Maze - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Maze&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Maze - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Maze&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Tunnel - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Tunnel&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Hallway - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Hallway&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+dynamic room - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;dynamic room&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+dynamic room - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;dynamic room&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+dynamic room - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;dynamic room&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+dynamic room - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;dynamic room&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+dynamic room - dynamic room
+singular-named, improper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;dynamic room&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Dungeon Entrance - room
+singular-named, proper-named; lighted, unvisited, present in the coordinate system
+printed name: &quot;Dungeon Entrance&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 10
+y-coordinate: 0
+z-coordinate: 0
+Daylit Passage - room
+singular-named, proper-named; lighted, unvisited, absent from the coordinate system
+printed name: &quot;Daylit Passage&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Staging Area - room
+singular-named, proper-named; lighted, visited, absent from the coordinate system
+printed name: &quot;Staging Area&quot;
+printed plural name: none
+indefinite article: none
+description: none
+x-coordinate: 0
+y-coordinate: 0
+z-coordinate: 0
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+Monster - Monster
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; male
+printed name: &quot;Monster&quot;
+printed plural name: &quot;Monsters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 4
+Current Hit Points: 17
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: the Monster using Bite on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 0
+Priority: 0
+InitiativeOrder: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+PokeAbility: Stench
+Alignment: Neutral
+PokeSpecies: Bulbasaur
+north - direction
+singular-named, improper-named; printed name: &quot;north&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: south
+northeast - direction
+singular-named, improper-named; printed name: &quot;northeast&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: southwest
+northwest - direction
+singular-named, improper-named; printed name: &quot;northwest&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: southeast
+south - direction
+singular-named, improper-named; printed name: &quot;south&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: north
+southeast - direction
+singular-named, improper-named; printed name: &quot;southeast&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: northwest
+southwest - direction
+singular-named, improper-named; printed name: &quot;southwest&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: northeast
+east - direction
+singular-named, improper-named; printed name: &quot;east&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: west
+west - direction
+singular-named, improper-named; printed name: &quot;west&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: east
+up - direction
+singular-named, improper-named; printed name: &quot;up&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: down
+down - direction
+singular-named, improper-named; printed name: &quot;down&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: up
+inside - direction
+singular-named, improper-named; printed name: &quot;inside&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: outside
+outside - direction
+singular-named, improper-named; printed name: &quot;outside&quot;
+printed plural name: &quot;directions&quot;
+indefinite article: &quot;the&quot;
+opposite: inside
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d1d80">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1df0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1e60">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+PC4 uses Bulk Up!
+PC4&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC3 uses Bulk Up!
+PC3&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC2 uses Bulk Up!
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Leech Seed on Bob!
+
+Alice uses Bite on PC2!
+PC2 is damaged for 3 (100% -&gt; 90%)
+
+Bob uses Bite on PC2!
+PC2 is damaged for 2 (90% -&gt; 83%)
+
+Carol uses Bite on PC2!
+PC2 is damaged for 3 (83% -&gt; 72%)
+
+Dan uses Bite on PC2!
+PC2 is damaged for 2 (72% -&gt; 66%)
+
+Bob is harmed by its leech seeed, healing PC2!
+Bob is damaged for 2 (100% -&gt; 88%)
+PC2 is healed for 2 (66% -&gt; 72%)
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d1ed0">
+    <command xml:space="preserve">use substitute</command>
+    <result xml:space="preserve">Obvious exits: north 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1f40">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+Obvious exits: south 
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d1fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d1fb0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You must USE &lt;some move you know&gt; ON &lt;some target in this battle&gt;
+
+Obvious exits: south 
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2020" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2020">
+    <command xml:space="preserve">use substitute</command>
+    <result xml:space="preserve">okay, PC1 will use Substitute on PC1!
+
+Obvious exits: south 
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2090" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2090">
+    <command xml:space="preserve">use substitute</command>
+    <result xml:space="preserve">okay, PC2 will use Substitute on PC2!
+
+Obvious exits: south 
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2100" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2100">
+    <command xml:space="preserve">use substitute</command>
+    <result xml:space="preserve">okay, PC3 will use Substitute on PC3!
+
+Obvious exits: south 
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2170" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2170">
+    <command xml:space="preserve">use substitute</command>
+    <result xml:space="preserve">okay, PC4 will use Substitute on PC4!
+
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+PC4 uses Substitute on PC4!
+PC4 uses a substitute!
+PC4 is damaged for 7 (100% -&gt; 76%)
+
+PC3 uses Substitute on PC3!
+PC3 uses a substitute!
+PC3 is damaged for 7 (100% -&gt; 76%)
+
+PC2 uses Substitute on PC2!
+PC2 uses a substitute!
+PC2 is damaged for 7 (100% -&gt; 76%)
+
+PC1 uses Substitute on PC1!
+PC1 uses a substitute!
+PC1 is damaged for 7 (100% -&gt; 76%)
+
+Alice uses Bite on PC2!
+It&apos;s a critical hit!
+PC2&apos;s substitute breaks!
+
+Bob uses Bite on PC2!
+PC2 is damaged for 3 (76% -&gt; 66%)
+
+Carol uses Bite on PC2!
+PC2 is damaged for 3 (66% -&gt; 55%)
+
+Dan uses Bite on PC2!
+PC2 is damaged for 3 (55% -&gt; 45%)
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+Obvious exits: south 
+What will PC1 (22/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d21e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d21e0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC1 will use Bulk Up on PC1!
+
+Obvious exits: south 
+What will PC2 (13/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2250" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2250">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC2 will use Bulk Up on PC2!
+
+Obvious exits: south 
+What will PC3 (22/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d22c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d22c0">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC3 will use Bulk Up on PC3!
+
+Obvious exits: south 
+What will PC4 (22/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2330" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2330">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">okay, PC4 will use Bulk Up on PC4!
+
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+PC4 uses Bulk Up on PC4!
+
+PC3 uses Bulk Up on PC3!
+
+PC2 uses Bulk Up on PC2!
+PC2&apos;s Physical Attack and Physical Defense rose by 1!
+
+PC1 uses Bulk Up on PC1!
+
+Alice uses Bite on PC2!
+PC2 is damaged for 3 (45% -&gt; 34%)
+
+Bob uses Bite on PC2!
+PC2 is damaged for 3 (34% -&gt; 24%)
+
+Carol uses Bite on PC2!
+PC2 is damaged for 2 (24% -&gt; 17%)
+
+Dan uses Bite on PC2!
+PC2 is damaged for 2 (17% -&gt; 10%)
+
+
+== Starting Round 3 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+Obvious exits: south 
+What will PC1 (22/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d23a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d23a0">
+    <command xml:space="preserve">showme pc2</command>
+    <result xml:space="preserve">PC2 - Player Character
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male; ready-for-orders
+printed name: &quot;PC2&quot;
+printed plural name: &quot;Player Characters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 10
+Current Hit Points: 3
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 1
+PhysAttMod: 1
+Queued Action: PC2 using Bulk Up on PC2
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+cond_Substitute: -2
+LinePos: 2
+Priority: 0
+InitiativeOrder: 14
+PokeAbility: Stench
+Alignment: Friendly
+PokeSpecies: Bulbasaur
+Experience: 0
+SXP: 0
+SDXP: 0
+PDXP: 0
+SAXP: 0
+PAXP: 0
+HPXP: 0
+
+What will PC1 (22/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d2410">
+    <command xml:space="preserve">verbose combat</command>
+    <result xml:space="preserve">Enabling verbose combat.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d25d0" />
+      <child nodeId="node-0x52d2480" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2480">
+    <command xml:space="preserve">verbose combat</command>
+    <result xml:space="preserve">Disabling verbose combat.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="338">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d24f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d24f0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="338">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2560" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2560">
+    <command xml:space="preserve">verbose combat</command>
+    <result xml:space="preserve">Enabling verbose combat.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="337">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d25d0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2640" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2640">
+    <command xml:space="preserve">use toxic on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Toxic on Alice!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d26b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d26b0">
+    <command xml:space="preserve">use toxic on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Toxic on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2720" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2720">
+    <command xml:space="preserve">use toxic on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Toxic on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2790" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2790">
+    <command xml:space="preserve">use toxic on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Toxic on Dan!
+
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+PC4 uses Toxic on Dan!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+Dan is inflicted with BadPoisoned!
+
+PC3 uses Toxic on Carol!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+Carol is inflicted with BadPoisoned!
+
+PC2 uses Toxic on Bob!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+Bob is inflicted with BadPoisoned!
+
+PC1 uses Toxic on Alice!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+Alice is inflicted with BadPoisoned!
+
+Alice uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 3.
+PC2 is damaged for 3 (100% -&gt; 90%)
+PC2 is inflicted with Flinching!
+
+Bob uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 4.
+PC2 is damaged for 4 (90% -&gt; 76%)
+
+Carol uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 3.
+PC2 is damaged for 3 (76% -&gt; 66%)
+
+Dan uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+Damage modified to 6; 
+It&apos;s a critical hit!
+PC2 is damaged for 6 (66% -&gt; 45%)
+PC2 is inflicted with Flinching!
+
+Alice dissolves from strong poison!
+Alice is damaged for 1 (100% -&gt; 94%)
+Bob dissolves from strong poison!
+Bob is damaged for 1 (100% -&gt; 94%)
+Carol dissolves from strong poison!
+Carol is damaged for 1 (100% -&gt; 94%)
+Dan dissolves from strong poison!
+Dan is damaged for 1 (100% -&gt; 94%)
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2800" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2800">
+    <command xml:space="preserve">use toxic on dan</command>
+    <result xml:space="preserve">PC1 can&apos;t reach Dan with Toxic!
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2870" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2870">
+    <command xml:space="preserve">use toxic on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Toxic on Alice!
+
+What will PC2 (13/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d28e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d28e0">
+    <command xml:space="preserve">use toxic on carol</command>
+    <result xml:space="preserve">okay, PC2 will use Toxic on Carol!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2950" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2950">
+    <command xml:space="preserve">use toxic on bob</command>
+    <result xml:space="preserve">okay, PC3 will use Toxic on Bob!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d29c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d29c0">
+    <command xml:space="preserve">use toxic on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Toxic on Dan!
+
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+PC4 uses Toxic on Dan!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+
+PC3 uses Toxic on Bob!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+91 is greater than 90! 
+Move misses!
+crit chance level is 0.
+
+PC2 uses Toxic on Carol!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+
+PC1 uses Toxic on Alice!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 0.
+
+Alice uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+Damage modified to 6; 
+It&apos;s a critical hit!
+PC2 is damaged for 6 (45% -&gt; 24%)
+PC2 is inflicted with Flinching!
+
+Bob uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 4.
+PC2 is damaged for 4 (24% -&gt; 10%)
+
+Carol uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 3.
+PC2 is damaged for 3 (10% -&gt; 0%)
+
+Dan uses Bite on PC2!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 4.
+PC2 is damaged for 4 (0% -&gt; 0%)
+
+Alice dissolves from strong poison!
+Alice is damaged for 2 (94% -&gt; 82%)
+Bob dissolves from strong poison!
+Bob is damaged for 2 (94% -&gt; 82%)
+Carol dissolves from strong poison!
+Carol is damaged for 2 (94% -&gt; 82%)
+Dan dissolves from strong poison!
+Dan is damaged for 2 (94% -&gt; 82%)
+
+== Starting Round 3 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2a30">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="355">YES</temporary>
+  </item>
+  <item nodeId="node-0x52d2aa0">
+    <command xml:space="preserve">turn myself into hitmonchan</command>
+    <result xml:space="preserve">I only understood you as far as wanting to turn yourself.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="266">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2b10">
+    <command xml:space="preserve">transform myself into hitmonchan</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="266">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2b80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see a Monster here.
+
+Beginning combat!
+
+What will PC1 do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="266">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2bf0">
+    <command xml:space="preserve">use bullet punch on monster</command>
+    <result xml:space="preserve">okay, PC1 will use Bullet Punch on the Monster!
+
+What will pc2 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="266">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2c60">
+    <command xml:space="preserve">use bullet punch on monster</command>
+    <result xml:space="preserve">okay, pc2 will use Bullet Punch on the Monster!
+
+What will pc3 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="266">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2cd0">
+    <command xml:space="preserve">use bullet punch on monster</command>
+    <result xml:space="preserve">okay, pc3 will use Bullet Punch on the Monster!
+
+What will pc4 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="266">YES</temporary>
+    <children>
+      <child nodeId="node-0x52d2d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x52d2d40">
+    <command xml:space="preserve">use bullet punch on monster</command>
+    <result xml:space="preserve">okay, pc4 will use Bullet Punch on the Monster!
+
+Initiative: Monster, pc4, pc3, pc2 and PC1.
+
+pc4 uses Bullet Punch on the Monster!
+calculating core damage with attack 29, defense 11, power 40.
+maximum mid-calculation value: 13920.
+before modifiers: 27.
+modified by type effectiveness: 27.
+modified by random variation: 22.
+SelfStat: false.
+RaiseStat: false.
+StatMod: 0.
+0 0 0 0 0 0 0.
+
+pc3 uses Bullet Punch on the Monster!
+calculating core damage with attack 54, defense 11, power 40.
+maximum mid-calculation value: 47520.
+before modifiers: 88.
+modified by type effectiveness: 88.
+modified by random variation: 80.
+SelfStat: false.
+RaiseStat: false.
+StatMod: 0.
+0 0 0 0 0 0 0.
+
+pc2 uses Bullet Punch on the Monster!
+calculating core damage with attack 103, defense 11, power 40.
+maximum mid-calculation value: 173040.
+before modifiers: 316.
+modified by type effectiveness: 316.
+modified by random variation: 277.
+SelfStat: false.
+RaiseStat: false.
+StatMod: 0.
+0 0 0 0 0 0 0.
+
+PC1 uses Bullet Punch on the Monster!
+calculating core damage with attack 215, defense 11, power 40.
+maximum mid-calculation value: 361200.
+before modifiers: 658.
+modified by type effectiveness: 658.
+modified by random variation: 584.
+SelfStat: false.
+RaiseStat: false.
+StatMod: 0.
+0 0 0 0 0 0 0.
+
+What will PC1 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="265">YES</temporary>
+  </item>
+  <item nodeId="node-0x1defb0">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1df000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1df000">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+Enemy: Alice, Bob, Carol and Dan.
+Your Party: PC1, pc2, pc3 and pc4.
+
+What will PC1 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1df050" />
+    </children>
+  </item>
+  <item nodeId="node-0x1df050">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, PC1 will use Bubble on PC1!
+
+What will pc2 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1df0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1df0c0">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, pc2 will use Bubble on pc2!
+
+What will pc3 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1df130" />
+    </children>
+  </item>
+  <item nodeId="node-0x1df130">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, pc3 will use Bubble on pc3!
+
+What will pc4 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1df1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1df1a0">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, pc4 will use Bubble on pc4!
+
+Initiative: Alice, Bob, Carol, Dan, pc4, pc3, pc2 and PC1.
+
+pc4 uses Bubble on Carol and Dan!
+calculating core damage with attack 37, defense 10, power 40.
+maximum mid-calculation value: 17760.
+before modifiers: 37.
+modified by type effectiveness: 37.
+modified by random variation: 31.
+calculating core damage with attack 37, defense 10, power 40.
+maximum mid-calculation value: 17760.
+before modifiers: 37.
+modified by type effectiveness: 37.
+modified by random variation: 32.
+
+pc3 uses Bubble on Bob, Carol and Dan!
+calculating core damage with attack 70, defense 10, power 40.
+maximum mid-calculation value: 61600.
+before modifiers: 125.
+modified by type effectiveness: 125.
+modified by random variation: 121.
+calculating core damage with attack 70, defense 10, power 40.
+maximum mid-calculation value: 61600.
+before modifiers: 125.
+modified by type effectiveness: 125.
+modified by random variation: 120.
+calculating core damage with attack 70, defense 10, power 40.
+maximum mid-calculation value: 61600.
+before modifiers: 125.
+modified by type effectiveness: 125.
+modified by random variation: 125.
+
+pc2 uses Bubble on Alice, Bob and Carol!
+calculating core damage with attack 135, defense 10, power 40.
+maximum mid-calculation value: 226800.
+before modifiers: 455.
+modified by type effectiveness: 455.
+modified by random variation: 434.
+calculating core damage with attack 135, defense 10, power 40.
+maximum mid-calculation value: 226800.
+before modifiers: 455.
+modified by type effectiveness: 455.
+modified by random variation: 411.
+calculating core damage with attack 135, defense 10, power 40.
+maximum mid-calculation value: 226800.
+before modifiers: 455.
+modified by type effectiveness: 455.
+modified by random variation: 401.
+
+PC1 uses Bubble on Alice and Bob!
+calculating core damage with attack 540, defense 10, power 40.
+maximum mid-calculation value: 907200.
+before modifiers: 1816.
+modified by type effectiveness: 1816.
+modified by random variation: 1762.
+calculating core damage with attack 540, defense 10, power 40.
+maximum mid-calculation value: 907200.
+before modifiers: 1816.
+modified by type effectiveness: 1816.
+modified by random variation: 1720.
+
+== New Combat Round ==Enemy: Alice, Bob, Carol and Dan.
+Your Party: PC1, pc2, pc3 and pc4.
+
+What will PC1 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf5d0">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, PC1 will use Bubble on PC1!
+
+What will pc2 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf620" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf620">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, pc2 will use Bubble on pc2!
+
+What will pc3 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf670" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf670">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, pc3 will use Bubble on pc3!
+
+What will pc4 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="353">YES</temporary>
+    <children>
+      <child nodeId="node-0x52cf6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x52cf6e0">
+    <command xml:space="preserve">use bubble</command>
+    <result xml:space="preserve">okay, pc4 will use Bubble on pc4!
+
+Initiative: Alice, Bob, Carol, Dan, pc4, pc3, pc2 and PC1.
+
+pc4 uses Bubble on Carol and Dan!
+calculating core damage with attack 37, defense 10, power 40.
+maximum mid-calculation value: 17760.
+before modifiers: 37.
+modified by type effectiveness: 37.
+modified by random variation: 36.
+calculating core damage with attack 37, defense 10, power 40.
+maximum mid-calculation value: 17760.
+before modifiers: 37.
+modified by type effectiveness: 37.
+modified by random variation: 37.
+
+pc3 uses Bubble on Bob, Carol and Dan!
+calculating core damage with attack 70, defense 10, power 40.
+maximum mid-calculation value: 61600.
+before modifiers: 125.
+modified by type effectiveness: 125.
+modified by random variation: 123.
+calculating core damage with attack 70, defense 10, power 40.
+maximum mid-calculation value: 61600.
+before modifiers: 125.
+modified by type effectiveness: 125.
+modified by random variation: 123.
+calculating core damage with attack 70, defense 10, power 40.
+maximum mid-calculation value: 61600.
+before modifiers: 125.
+modified by type effectiveness: 125.
+modified by random variation: 121.
+
+pc2 uses Bubble on Alice, Bob and Carol!
+calculating core damage with attack 135, defense 10, power 40.
+maximum mid-calculation value: 226800.
+before modifiers: 455.
+modified by type effectiveness: 455.
+modified by random variation: 441.
+calculating core damage with attack 135, defense 10, power 40.
+maximum mid-calculation value: 226800.
+before modifiers: 455.
+modified by type effectiveness: 455.
+modified by random variation: 437.
+calculating core damage with attack 135, defense 10, power 40.
+maximum mid-calculation value: 226800.
+before modifiers: 455.
+modified by type effectiveness: 455.
+modified by random variation: 416.
+SelfStat: false.
+RaiseStat: false.
+StatMod: 256.
+0 0 0 0 1 0 0.
+Carol&apos;s Speed dropped by 1!
+
+PC1 uses Bubble on Alice and Bob!
+calculating core damage with attack 540, defense 10, power 40.
+maximum mid-calculation value: 907200.
+before modifiers: 1816.
+modified by type effectiveness: 1816.
+modified by random variation: 1656.
+calculating core damage with attack 540, defense 10, power 40.
+maximum mid-calculation value: 907200.
+before modifiers: 1816.
+modified by type effectiveness: 1816.
+modified by random variation: 1751.
+
+== New Combat Round ==Enemy: Alice, Bob, Carol and Dan.
+Your Party: PC1, pc2, pc3 and pc4.
+
+What will PC1 do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="352">YES</temporary>
+  </item>
+</Skein>
