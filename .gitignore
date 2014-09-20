@@ -1,4 +1,6 @@
 *.html
 *.xml
 *.skein
+PRD.inform/Skein.skein
 PRD.materials/Release/*
+PRD.materials/Icon

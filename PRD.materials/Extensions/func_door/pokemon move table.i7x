@@ -344,7 +344,17 @@ Magnet Rise	393	ElectricType	Status	10	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--
 Telekinesis	477	PsychicType	Status	15	--	--	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
 Smack Down	479	RockType	Physical	15	50	100	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
 Charge	268	ElectricType	Status	20	--	--	0	SelfOnly	FALSE	0	1	--	--	100	--	TRUE	TRUE	64
+Fly	19	FlyingType	Physical	15	--	--	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
+perform_Fly	19	FlyingType	Physical	15	90	95	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
+Bounce	340	FlyingType	Physical	5	--	--	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
+perform_Bounce	340	FlyingType	Physical	5	85	85	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
+Dig	91	GroundType	Physical	10	--	--	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
+perform_Dig	91	GroundType	Physical	10	80	100	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
+Dive	291	WaterType	Physical	10	--	--	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
+perform_Dive	291	WaterType	Physical	10	80	100	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
+Sky Drop	507	FlyingType	Physical	10	--	--	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
+perform_SkyDrop	507	FlyingType	Physical	10	60	100	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
 SPmove_confus	--	NoType	Physical	0	50	--	0	SelfOnly	TRUE	0	1	--	--	--	--	--	--	--
-																									
+																								
 Pokemon Move Table ends here.
 
