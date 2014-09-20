@@ -342,8 +342,8 @@ Ingrain	275	GrassType	Status	20	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 Aqua Ring	392	WaterType	Status	20	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 Magnet Rise	393	ElectricType	Status	10	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 Telekinesis	477	PsychicType	Status	15	--	--	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
-Roost	355	FlyingType	Status	10	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 Smack Down	479	RockType	Physical	15	50	100	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
+Charge	268	ElectricType	Status	20	--	--	0	SelfOnly	FALSE	0	1	--	--	100	--	TRUE	TRUE	64
 SPmove_confus	--	NoType	Physical	0	50	--	0	SelfOnly	TRUE	0	1	--	--	--	--	--	--	--
 																									
 Pokemon Move Table ends here.
