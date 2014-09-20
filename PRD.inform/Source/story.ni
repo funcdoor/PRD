@@ -380,7 +380,7 @@ Understand "use [pokemove]" as using it on.
 Instead of doing something other than using when combat is happening:
 	say "You must USE <some move you know> ON <some target in this battle>[line break]".
 
-Carry out using it on during combat:
+Carry out using it on while the active character is not preoccupied during combat:
 	say "okay, [active character] will use [the pokemove understood] on [the second noun]!";
 	now the queued action of the active character is the current action;
 	now the actor part of the queued action of the active character is the active character;
@@ -1075,11 +1075,11 @@ there are 100 monsters. there are 100 monsters. there are 100 monsters. there ar
 Standard Attack is a stored action that varies.
 
 when play begins:
-	Now Standard Attack is the action of using milk drink on nothing.
+	Now Standard Attack is the action of using bite on nothing.
 
 When play begins:
 	repeat with P running through monsters:
 		now the queued action of P is standard attack;
 		now the actor part of the queued action of P is P;
-		now the second noun part of the queued action of P is P;
+		now the second noun part of the queued action of P is PC2;
 	
