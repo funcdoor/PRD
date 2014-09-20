@@ -508,6 +508,8 @@ To decide if (P - a pokemon) is ground-invuln:
 	decide no.
 		
 The list of air semi-invulnerable weaknesses is always {Gust, Smack Down, Sky Uppercut, Thunder, Twister, Hurricane, perform_SkyDrop}.
+The list of water semi-invulnerable weaknesses is always {Surf[, Whirlpool]}.
+The list of ground semi-invulnerable weaknesses is always {Earthquake, Magnitude[, Fissure]}.
 
 The last before performing move effects rule while current move target is air-invuln (this is the air semi-invulnerable rule):
 	if current move is listed in the list of air semi-invulnerable weaknesses:
@@ -515,6 +517,22 @@ The last before performing move effects rule while current move target is air-in
 		now current move damage is current move damage times two;
 	otherwise:
 		say "[current move target] is too high up to be hit!";
+		now current move hits is false;
+
+The last before performing move effects rule while current move target is water-invuln (this is the water semi-invulnerable rule):
+	if current move is listed in the list of water semi-invulnerable weaknesses:
+		say "[current move] manages to hit [current move target] in semi-invuln, doubling damage!";
+		now current move damage is current move damage times two;
+	otherwise:
+		say "[current move target] is diving and can't be hit!";
+		now current move hits is false;
+
+The last before performing move effects rule while current move target is ground-invuln (this is the ground semi-invulnerable rule):
+	if current move is listed in the list of ground semi-invulnerable weaknesses:
+		say "[current move] manages to hit [current move target] in semi-invuln, doubling damage!";
+		now current move damage is current move damage times two;
+	otherwise:
+		say "[current move target] is burrowing and can't be hit!";
 		now current move hits is false;
 	
 		
