@@ -1,1 +1,4 @@
 *.html
+*.xml
+*.skein
+PRD.materials/Release/*
