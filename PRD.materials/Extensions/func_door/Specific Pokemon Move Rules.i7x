@@ -35,7 +35,7 @@ Chapter 3 - Telekinesis
 After performing move effects while current move is Telekinesis (this is the use Telekinesis rule):
 	if current move hits is true:
 		let B be whether or not current move target is ungrounded;
-		now the cond_MagnetRise of the current move target is 5;
+		now the cond_MagnetRise of the current move target is 5; [cheating and using the same condition for both moves]
 		let N be whether or not current move target is ungrounded;
 		unless B is N:
 			say "[current move target] lifts into the air!"
@@ -409,5 +409,24 @@ Before performing move effects while current move is Water Spout or current move
 	if N is less than 1, now N is 1;
 	long_say "[current move]'s power is [N]!";
 	now the current move power is n.
+	
+Chapter 15 - Charge
 
+A pokemon has a truth state called cond_Charge.
+
+After performing move effects while current move is Charge (this is the use Charge rule):
+	if current move hits is true:
+		now the cond_Charge of current move target is True;
+		say "[current move target] began charging power!"
+
+Definition: A pokemon is Charged if the cond_Charge of it is true.		
+
+The last before performing move effects while the active character is charged (this is the attacking with charge rule):
+	if the current move type is ElectricType:
+		now current move damage is current move damage times two;
+		say "[active character]'s Charge was used to double the damage!";
+	otherwise:
+		say "[active character]'s Charge fizzles!";
+	now the cond_Charge of active character is false.
+		
 Specific Pokemon Move Rules ends here.
