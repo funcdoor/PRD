@@ -35,7 +35,7 @@ Chapter 3 - Telekinesis
 After performing move effects while current move is Telekinesis (this is the use Telekinesis rule):
 	if current move hits is true:
 		let B be whether or not current move target is ungrounded;
-		now the cond_MagnetRise of the current move target is 5;
+		now the cond_MagnetRise of the current move target is 5; [cheating and using the same condition for both moves]
 		let N be whether or not current move target is ungrounded;
 		unless B is N:
 			say "[current move target] lifts into the air!"
@@ -409,5 +409,155 @@ Before performing move effects while current move is Water Spout or current move
 	if N is less than 1, now N is 1;
 	long_say "[current move]'s power is [N]!";
 	now the current move power is n.
+	
+Chapter 15 - Charge
 
+A pokemon has a truth state called cond_Charge.
+
+After performing move effects while current move is Charge (this is the use Charge rule):
+	if current move hits is true:
+		now the cond_Charge of current move target is True;
+		say "[current move target] began charging power!"
+
+Definition: A pokemon is Charged if the cond_Charge of it is true.		
+
+The last before performing move effects while the active character is charged (this is the attacking with charge rule):
+	if the current move type is ElectricType:
+		now current move damage is current move damage times two;
+		say "[active character]'s Charge was used to double the damage!";
+	otherwise:
+		say "[active character]'s Charge fizzles!";
+	now the cond_Charge of active character is false.
+		
+Chapter 16 - Moves with a semi-evading charge-up turn
+
+A pokemon has a truth state called cond_bounce, cond_dig, cond_dive, cond_fly, cond_SkyDrop, cond_SkyDrop_Targeted.
+
+To decide if (P - pokemon) is preoccupied:
+	if the cond_bounce of P is true, decide yes;
+	if the cond_dig of P is true, decide yes;
+	if the cond_dive of P is true, decide yes;
+	if the cond_fly of P is true, decide yes;
+	if the cond_SkyDrop of P is true, decide yes;
+	if the cond_SkyDrop_Targeted of P is true, decide yes;
+	decide no.
+	
+To decide if (P - pokemon) is not preoccupied: [used by "Carry out using it on while the active character is not preoccupied during combat" rule]
+	if P is preoccupied, decide no;
+	decide yes.
+
+After performing move effects while current move is bounce (this is the begin charge-up bounce rule):
+	now the cond_bounce of active character is true;
+	
+After performing move effects while current move is dig (this is the begin charge-up dig rule):
+	now the cond_dig of active character is true;
+	
+After performing move effects while current move is dive (this is the begin charge-up dive rule):
+	now the cond_dive of active character is true;
+	
+After performing move effects while current move is fly (this is the begin charge-up fly rule):
+	now the cond_fly of active character is true;
+	
+After performing move effects while current move is Sky Drop:
+	now the cond_skydrop of active character is true;
+	now the cond_SkyDrop_Targeted of current move target is true;
+	
+Before performing move effects while current move is perform_SkyDrop (this is the drop down with SkyDrop rule):
+	now the cond_SkyDrop_Targeted of current move target is false;
+	
+Instead of doing something while the cond_bounce of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_bounce on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_bounce of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_dig of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_dig on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_dig of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_dive of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_dive on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_dive of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_fly of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_fly on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_fly of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_SkyDrop of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_SkyDrop on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_SkyDrop of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+		
+To decide if (P - a pokemon) is air-invuln:
+	if the cond_bounce of P is true, decide yes;
+	if the cond_fly of P is true, decide yes;
+	if the cond_SkyDrop of P is true, decide yes;
+	if the cond_SkyDrop_targeted of P is true, decide yes;
+	decide no.
+	
+To decide if (P - a pokemon) is water-invuln:
+	if the cond_dive of P is true, decide yes;
+	decide no.
+	
+To decide if (P - a pokemon) is ground-invuln:
+	if the cond_dig of P is true, decide yes;
+	decide no.
+		
+The list of air semi-invulnerable weaknesses is always {Gust, Smack Down, Sky Uppercut, Thunder, Twister, Hurricane, perform_SkyDrop}.
+The list of water semi-invulnerable weaknesses is always {Surf[, Whirlpool]}.
+The list of ground semi-invulnerable weaknesses is always {Earthquake, Magnitude[, Fissure]}.
+
+The last before performing move effects rule while current move target is air-invuln (this is the air semi-invulnerable rule):
+	if current move is listed in the list of air semi-invulnerable weaknesses:
+		say "[current move] manages to hit [current move target] in semi-invuln, doubling damage!";
+		now current move damage is current move damage times two;
+	otherwise:
+		say "[current move target] is too high up to be hit!";
+		now current move hits is false;
+
+The last before performing move effects rule while current move target is water-invuln (this is the water semi-invulnerable rule):
+	if current move is listed in the list of water semi-invulnerable weaknesses:
+		say "[current move] manages to hit [current move target] in semi-invuln, doubling damage!";
+		now current move damage is current move damage times two;
+	otherwise:
+		say "[current move target] is diving and can't be hit!";
+		now current move hits is false;
+
+The last before performing move effects rule while current move target is ground-invuln (this is the ground semi-invulnerable rule):
+	if current move is listed in the list of ground semi-invulnerable weaknesses:
+		say "[current move] manages to hit [current move target] in semi-invuln, doubling damage!";
+		now current move damage is current move damage times two;
+	otherwise:
+		say "[current move target] is burrowing and can't be hit!";
+		now current move hits is false;
+	
+		
 Specific Pokemon Move Rules ends here.
+
