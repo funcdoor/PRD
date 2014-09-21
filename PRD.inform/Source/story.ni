@@ -58,7 +58,7 @@ A Monster is a kind of Pokemon.
 Book 3 - Assigning variables to things
 
 A Pokemon has a PokeAbility.
-A Pokemon has an Alignment. A Pokemon is usually Player-Aligned. A Player Character is usually Player-Aligned.
+A Pokemon has an Alignment. A Pokemon is usually Player-Aligned. A Player Character is usually Player-Aligned. A monster is usually Monstrous.
 A Pokemon has a PokeSpecies.
 
 Every Pokemon has a number called Ability Slot. Ability Slot is usually 1.
@@ -107,22 +107,22 @@ For performing per-character round-end on a thing (called p) while current weath
 		say "[H] is hurt by the Sandstorm!";
 		deal H damage to the active character.
 
-Before performing move effects while Current Weather is Sandstorm and current move target has the type rocktype (this is the sandstorm increases special defense rule):
+Before performing move effects while Current Weather is Sandstorm and current move target has the type rocktype (this is the sandstorm increases rock special defense rule):
 	If the mode of the current move is Special:
-	now Current Move Defense is Current Move Defense times 3;
-	now Current Move Defense is Current Move Defense divided by 2;
+		now Current Move Defense is Current Move Defense times 3;
+		now Current Move Defense is Current Move Defense divided by 2;
 	
 For performing per-character round-end on a thing (called p) while current weather is Hailing (this is the Hailing damage rule):
-	Unless active character has the type IceType;
+	Unless active character has the type IceType:
 		let H be the effective maximum hit points of the active character;
 		now H is H divided by 16;
 		say "[H] is hurt by the Hail!";
 		deal H damage to the active character.
 		
-Before performing move effects while Current Weather is Hailing and current move target has the type IceType (this is the sandstorm increases special defense rule):
+Before performing move effects while Current Weather is Hailing and current move target has the type IceType (this is the hailing increases ice physical defense rule):
 	If the mode of the current move is Physical:
-	now Current Move Defense is Current Move Defense times 3;
-	now Current Move Defense is Current Move Defense divided by 2;
+		now Current Move Defense is Current Move Defense times 3;
+		now Current Move Defense is Current Move Defense divided by 2;
 
 Book 5 - Stats
 
@@ -538,7 +538,6 @@ To decide if (p - a pokemon) is currently touching the ground:
 	if p is ingrained, decide yes;
 	if p is smackdowned, decide yes;
 	if p is magnetrisen, decide no;
-	if p is telekinesed, decide no;
 	if p has the type FlyingType, decide no;
 	decide yes.
 	
@@ -1076,11 +1075,11 @@ there are 100 monsters. there are 100 monsters. there are 100 monsters. there ar
 Standard Attack is a stored action that varies.
 
 when play begins:
-	Now Standard Attack is the action of using milk drink on nothing.
+	Now Standard Attack is the action of using bite on nothing.
 
 When play begins:
 	repeat with P running through monsters:
 		now the queued action of P is standard attack;
 		now the actor part of the queued action of P is P;
-		now the second noun part of the queued action of P is P;
+		now the second noun part of the queued action of P is PC2;
 	
