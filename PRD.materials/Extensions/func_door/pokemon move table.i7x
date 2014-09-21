@@ -362,7 +362,10 @@ Razor Wind	13	NormalType	Special	10	80	100	0	AllAdjFoes	FALSE	1	1	--	--	--	--	--
 Skull Bash	130	NormalType	Physical	10	130	100	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
 Sky Attack	143	FlyingType	Physical	5	140	90	0	AnyPokemon	FALSE	1	1	30	--	--	--	--	--	--
 Solar Beam	76	GrassType	Special	10	120	100	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
+Moonlight	236	FairyType	Status	5	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
+Morning Sun	234	NormalType	Status	5	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
+Synthesis	235	GrassType	Status	5	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 SPmove_confus	--	NoType	Physical	0	50	--	0	SelfOnly	TRUE	0	1	--	--	--	--	--	--	--
-																								
+																							
 Pokemon Move Table ends here.
 

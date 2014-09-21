@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x17aa60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x38ca20" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xa4b5120" />
-  <item nodeId="node-0x17aa60">
+  <activeNode nodeId="node-0x38ca20" />
+  <item nodeId="node-0x38ca20">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -19,11 +19,11 @@ You can see PC2, PC3 and PC4 here.
     <changed>NO</changed>
     <temporary score="112">NO</temporary>
     <children>
-      <child nodeId="node-0x67b09e0" />
-      <child nodeId="node-0x8d89f80" />
+      <child nodeId="node-0x3a7f60" />
+      <child nodeId="node-0x38c780" />
     </children>
   </item>
-  <item nodeId="node-0x8d89f80">
+  <item nodeId="node-0x38c780">
     <command xml:space="preserve">verbose</command>
     <result xml:space="preserve">PRD is now in its &quot;verbose&quot; mode, which always gives long descriptions of locations (even if you&apos;ve been there before).
 
@@ -32,10 +32,10 @@ You can see PC2, PC3 and PC4 here.
     <changed>NO</changed>
     <temporary score="112">YES</temporary>
     <children>
-      <child nodeId="node-0x8165340" />
+      <child nodeId="node-0x38c7d0" />
     </children>
   </item>
-  <item nodeId="node-0x8165340">
+  <item nodeId="node-0x38c7d0">
     <command xml:space="preserve">verbose combat</command>
     <result xml:space="preserve">Enabling verbose combat.
 
@@ -44,10 +44,10 @@ You can see PC2, PC3 and PC4 here.
     <changed>NO</changed>
     <temporary score="112">YES</temporary>
     <children>
-      <child nodeId="node-0x8df9650" />
+      <child nodeId="node-0x38c820" />
     </children>
   </item>
-  <item nodeId="node-0x8df9650">
+  <item nodeId="node-0x38c820">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">Test Chamber
 You can see Alice, Bob, Carol and Dan here.
@@ -62,10 +62,10 @@ What will PC1 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="112">YES</temporary>
     <children>
-      <child nodeId="node-0x816de40" />
+      <child nodeId="node-0x38c870" />
     </children>
   </item>
-  <item nodeId="node-0x816de40">
+  <item nodeId="node-0x38c870">
     <command xml:space="preserve">use razor wind on alice</command>
     <result xml:space="preserve">okay, PC1 will use Razor Wind on Alice!
 
@@ -74,10 +74,10 @@ What will PC2 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="112">YES</temporary>
     <children>
-      <child nodeId="node-0x8df3e30" />
+      <child nodeId="node-0x3a7db0" />
     </children>
   </item>
-  <item nodeId="node-0x8df3e30">
+  <item nodeId="node-0x3a7db0">
     <command xml:space="preserve">use skull bash on bob</command>
     <result xml:space="preserve">okay, PC2 will use Skull Bash on Bob!
 
@@ -86,10 +86,10 @@ What will PC3 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="112">YES</temporary>
     <children>
-      <child nodeId="node-0x3e9110" />
+      <child nodeId="node-0x3a7e20" />
     </children>
   </item>
-  <item nodeId="node-0x3e9110">
+  <item nodeId="node-0x3a7e20">
     <command xml:space="preserve">use sky attack on carol</command>
     <result xml:space="preserve">okay, PC3 will use Sky Attack on Carol!
 
@@ -98,10 +98,10 @@ What will PC4 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="112">YES</temporary>
     <children>
-      <child nodeId="node-0xa4b5120" />
+      <child nodeId="node-0x3a7f10" />
     </children>
   </item>
-  <item nodeId="node-0xa4b5120">
+  <item nodeId="node-0x3a7f10">
     <command xml:space="preserve">use solar beam on dan</command>
     <result xml:space="preserve">okay, PC4 will use Solar Beam on Dan!
 
@@ -196,7 +196,7 @@ What will PC1 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
   </item>
-  <item nodeId="node-0x67b09e0">
+  <item nodeId="node-0x3a7f60">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">Test Chamber
 You can see Alice, Bob, Carol and Dan here.
@@ -211,11 +211,11 @@ What will PC1 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x8d199b0" />
-      <child nodeId="node-0x67ec170" />
+      <child nodeId="node-0x3a83f0" />
+      <child nodeId="node-0x3a7fb0" />
     </children>
   </item>
-  <item nodeId="node-0x67ec170">
+  <item nodeId="node-0x3a7fb0">
     <command xml:space="preserve">use solar beam on alice</command>
     <result xml:space="preserve">okay, PC1 will use Solar Beam on Alice!
 
@@ -224,10 +224,10 @@ What will PC2 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0xa489500" />
+      <child nodeId="node-0x3a8020" />
     </children>
   </item>
-  <item nodeId="node-0xa489500">
+  <item nodeId="node-0x3a8020">
     <command xml:space="preserve">use solar beam on bob</command>
     <result xml:space="preserve">okay, PC2 will use Solar Beam on Bob!
 
@@ -236,10 +236,10 @@ What will PC3 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x67bf600" />
+      <child nodeId="node-0x3a8090" />
     </children>
   </item>
-  <item nodeId="node-0x67bf600">
+  <item nodeId="node-0x3a8090">
     <command xml:space="preserve">use solar beam on carol</command>
     <result xml:space="preserve">okay, PC3 will use Solar Beam on Carol!
 
@@ -248,10 +248,10 @@ What will PC4 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x6701180" />
+      <child nodeId="node-0x3a81c0" />
     </children>
   </item>
-  <item nodeId="node-0x6701180">
+  <item nodeId="node-0x3a81c0">
     <command xml:space="preserve">use solar beam on dan</command>
     <result xml:space="preserve">okay, PC4 will use Solar Beam on Dan!
 
@@ -290,10 +290,10 @@ What will PC1 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x6701c70" />
+      <child nodeId="node-0x3a7eb0" />
     </children>
   </item>
-  <item nodeId="node-0x6701c70">
+  <item nodeId="node-0x3a7eb0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">You must USE &lt;some move you know&gt; ON &lt;some target in this battle&gt;
 
@@ -302,10 +302,10 @@ What will PC1 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0xa48e230" />
+      <child nodeId="node-0x3a8230" />
     </children>
   </item>
-  <item nodeId="node-0xa48e230">
+  <item nodeId="node-0x3a8230">
     <command xml:space="preserve">showme pc2</command>
     <result xml:space="preserve">PC2 - Player Character
 location: in Test Chamber
@@ -372,10 +372,10 @@ What will PC1 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0xa493670" />
+      <child nodeId="node-0x3a82a0" />
     </children>
   </item>
-  <item nodeId="node-0xa493670">
+  <item nodeId="node-0x3a82a0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">You must USE &lt;some move you know&gt; ON &lt;some target in this battle&gt;
 
@@ -384,27 +384,27 @@ What will PC1 (29/29) do? </result>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x3cfc20" />
+      <child nodeId="node-0x3a8310" />
     </children>
   </item>
-  <item nodeId="node-0x3cfc20">
+  <item nodeId="node-0x3a8310">
     <command xml:space="preserve">use bulk up</command>
     <result xml:space="preserve">What will PC1 (29/29) do? </result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0xa493c30" />
+      <child nodeId="node-0x3a8380" />
     </children>
   </item>
-  <item nodeId="node-0xa493c30">
+  <item nodeId="node-0x3a8380">
     <command xml:space="preserve">use bulk up</command>
     <result xml:space="preserve">What will PC1 (29/29) do? </result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x8d199b0">
+  <item nodeId="node-0x3a83f0">
     <command xml:space="preserve">use razor wind on alice</command>
     <result xml:space="preserve">okay, PC1 will use Razor Wind on Alice!
 
@@ -413,10 +413,10 @@ What will PC2 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x8d12a00" />
+      <child nodeId="node-0x3a8460" />
     </children>
   </item>
-  <item nodeId="node-0x8d12a00">
+  <item nodeId="node-0x3a8460">
     <command xml:space="preserve">use skull bash on bob</command>
     <result xml:space="preserve">okay, PC2 will use Skull Bash on Bob!
 
@@ -425,10 +425,10 @@ What will PC3 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0xa4ac280" />
+      <child nodeId="node-0x3a8100" />
     </children>
   </item>
-  <item nodeId="node-0xa4ac280">
+  <item nodeId="node-0x3a8100">
     <command xml:space="preserve">use sky attack on carol</command>
     <result xml:space="preserve">okay, PC3 will use Sky Attack on Carol!
 
@@ -437,10 +437,10 @@ What will PC4 (29/29) do? </result>
     <changed>NO</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x8d4c4a0" />
+      <child nodeId="node-0x3a8150" />
     </children>
   </item>
-  <item nodeId="node-0x8d4c4a0">
+  <item nodeId="node-0x3a8150">
     <command xml:space="preserve">use solar beam on dan</command>
     <result xml:space="preserve">okay, PC4 will use Solar Beam on Dan!
 

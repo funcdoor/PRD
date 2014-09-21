@@ -109,6 +109,7 @@ Definition: A pokemon is healblocked if the cond_HealBlock of it is greater than
 
 the announce blocking leechmove rule substitutes for the standard drain move rule if the active character is healblocked.
 the announce blocking healing rule substitutes for the do healing for healing moves rule if the current move target is healblocked.
+the announce blocking healing rule substitutes for the do healing for Sunlight-dependent healing moves rule if the current move target is healblocked.
 the the ingrain healing rule does nothing if the active character is healblocked.
 the aqua ring healing rule does nothing if the active character is healblocked.
 
@@ -117,8 +118,9 @@ This is the announce blocking leechmove rule:
 		Say "Heal Block prevents damage drain!";
 	
 This is the announce blocking healing rule:
-	if the current move is listed in The list of healing moves AND current move hits is true:
-		Say "Heal Block prevents healing!";
+	if current move hits is true:
+		if the current move is listed in The list of healing moves or the current move is listed in the list of Sunlight-dependent healing moves AND:
+			Say "Heal Block prevents healing!";
 
 Chapter 8 - Leech Seed
 
@@ -185,7 +187,6 @@ For performing move effects while current move target has Substitute(this is the
 		say "[current move target]'s substitute breaks!";
 	now current move hits is false.
 
-		
 Chapter 10 - Reflect and Light Screen
 
 A Pokemon has a number called cond_LightScreen.
@@ -244,7 +245,25 @@ After performing move effects (This is the do healing for healing moves rule):
 		now H is H divided by 2;
 		heal H damage to current move target;
 		
-Chapter 12 - Recoil Moves
+chapter 12 - Sunlight-dependent healing moves
+
+The list of Sunlight-dependent healing moves is always {Moonlight, Morning Sun, Synthesis}.
+
+After performing move effects (This is the do healing for Sunlight-dependent healing moves rule):
+	if the current move is listed in The list of Sunlight-dependent healing moves AND current move hits is true:
+		let H be the effective maximum hit points of the current move target;
+		if current weather is sunny:
+			now H is H times 3;
+			now H is H divided by 2;
+			say "The sun enhanced the healing!";
+		if current weather is clearSkies:
+			now H is H divided by 2;
+		otherwise:
+			now H is H divided by 4;
+			say "This weather is no good for [current move]!";
+		heal H damage to current move target;
+
+Chapter 13 - Recoil Moves
 
 The list of recoil moves is always {Brave Bird, Double-Edge, Flare Blitz, Head Charge, Head Smash, Struggle, Submission, Take Down, Volt Tackle, Wild Charge, Wood Hammer}.
 
@@ -268,12 +287,12 @@ After performing move effects (This is the do recoil for recoil moves rule):
 		say "[active character] takes 1/[n] recoil damage!";
 		Deal H damage to the active character.
 
-Chapter 13 - Toxic
+Chapter 14 - Toxic
 
 Before Performing Move Effects while Current Move is Toxic (this is the Toxic Always Hits for Poison Types Rule):
 	if the Active Character has the type PoisonType, now the Current Move Accuracy is 0.
 
-Chapter 14 - Variable Power moves
+Chapter 15 - Variable Power moves
 
 Before performing move effects while current move is Hex (this is the Hex harms the inflicted rule):
 	Unless the StatusProblem of the Current Move Target is NullStatus:
@@ -410,7 +429,7 @@ Before performing move effects while current move is Water Spout or current move
 	long_say "[current move]'s power is [N]!";
 	now the current move power is n.
 	
-Chapter 15 - Charge
+Chapter 16 - Charge
 
 A pokemon has a truth state called cond_Charge.
 
@@ -429,7 +448,7 @@ The last before performing move effects while the active character is charged (t
 		say "[active character]'s Charge fizzles!";
 	now the cond_Charge of active character is false.
 	
-Chapter 16 - Moves with a semi-evading charge-up turn
+Chapter 17 - Moves with a semi-evading charge-up turn
 
 A pokemon has a truth state called cond_bounce, cond_dig, cond_dive, cond_fly, cond_SkyDrop, cond_SkyDrop_Targeted.
 
@@ -559,7 +578,7 @@ The last before performing move effects rule while current move target is ground
 		say "[current move target] is burrowing and can't be hit!";
 		now current move hits is false;
 
-Chapter 17 - Moves with a charge-up turn besides semi-evasion moves
+Chapter 18 - Moves with a charge-up turn besides semi-evasion moves
 
 The list of generic charge-up moves is always {Freeze Shock, Geomancy, Ice Burn, Razor Wind, Skull Bash, Sky Attack, Solar Beam}.
 
@@ -588,6 +607,21 @@ Instead of doing something while the cond_charge-up of active character is true 
 	repeat with i running through ready-for-orders player characters:
 		now the active character is i;
 		break.
+		
+Chapter 19 - Solar Beam
 
+the last before performing move effects when current move is Solar Beam:
+	if current weather is sandstorm or rain:
+		now current move damage is current move damage / 2;
+		say "the weather weakened Solar Beam!"
+	
+Chapter 20 - Growth
+
+After performing move effects when current move is Growth:
+	If current weather is sunlight:
+		Increment the PhysAttMod of the active character;
+		increment the SpecAttMod of the active character;
+		say "[active character]'s attack stats are bolstered by the bright sun!"
+		
 Specific Pokemon Move Rules ends here.
 
