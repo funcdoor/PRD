@@ -978,6 +978,12 @@ To say Generic move announcement of (PM - a pokemove):
 
 Part 12 - bullshit
 
+changing the seed is an action applying to one number. Understand "seed [number]" as changing the seed.
+
+carry out changing the seed:
+	seed the random-number generator with the number understood;
+	say "random seed changed to [number understood]."
+
 bugtest_verbose is a truth state that varies. bugtest_verbose is false.
 
 toggling verbose combat is an action out of world. Understand "verbose combat" as toggling verbose combat.
