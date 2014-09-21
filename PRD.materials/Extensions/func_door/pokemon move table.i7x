@@ -48,6 +48,7 @@ Chatter	448	FlyingType	Special	20	65	100	0	AnyPokemon	FALSE	0	1	--	--	100	confus
 Close Combat	370	FightingType	Physical	5	120	100	0	AnyAdj	TRUE	0	1	--	--	100	--	TRUE	TRUE	80							
 Coil	489	PoisonType	Status	20	--	--	0	SelfOnly	FALSE	0	1	--	--	100	--	TRUE	TRUE	1041							
 Comet Punch	4	NormalType	Physical	15	18	85	0	AnyAdj	TRUE	0	5	--	--	--	--	--	--	--							
+Confide	590	NormalType	Status	20	--	--	0	AnyAdj	FALSE	0	1	--	--	100	--	FALSE	FALSE	4
 Confuse	93	PsychicType	Special	25	50	100	0	AnyAdj	FALSE	0	1	--	--	10	confus	--	--	--							
 Confuse Ray	109	GhostType	Status	10	--	100	0	AnyAdj	FALSE	0	1	--	--	100	confus	--	--	--							
 Constrict	132	NormalType	Physical	35	10	100	0	AnyAdj	TRUE	0	1	--	--	10	--	FALSE	FALSE	256							
