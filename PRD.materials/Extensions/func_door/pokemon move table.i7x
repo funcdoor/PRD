@@ -370,6 +370,8 @@ Psych Up	244	NormalType	Status	10	--	--	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
 Focus Energy	116	NormalType	Status	30	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 Mist	54	IceType	Status	30	--	--	0	WholeTeam	FALSE	0	1	--	--	--	--	--	--	--
 Haze	114	IceType	Status	30	--	--	0	AllPokemon	FALSE	0	1	--	--	--	--	--	--	--
+Belly Drum	187	NormalType	Status	10	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
+Acupressure	367	NormalType	Status	30	--	--	0	SelfOrAlly	FALSE	0	1	--	--	--	--	--	--	--
 SPmove_confus	--	NoType	Physical	0	50	--	0	SelfOnly	TRUE	0	1	--	--	--	--	--	--	--
 																							
 Pokemon Move Table ends here.

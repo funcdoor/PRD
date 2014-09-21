@@ -684,12 +684,16 @@ After performing move effects when current move is Focus Energy:
 	
 Chapter 25 - Mist
 
-A pokemon has a truth state called cond_Mist.
+Cond_Mist is a number that varies.
 
 After performing move effects when current move is Mist:
-	now the cond_Mist of the active character is true;
+	now cond_Mist is 5;
+	say "A mysterious mist protects the battlefield from stat modifications from enemy moves!"
+
+Before Performing end of round:
+	if cond_Mist is greater than 0, decrement cond_Mist.
 	
-The standard stat modifying rule does nothing when the cond_mist of the current move target is true.
+The standard stat modifying rule does nothing when cond_mist is greater than 0.
 
 Chapter 26 - Haze
 
@@ -702,6 +706,50 @@ After performing move effects when current move is Haze:
 	now the AccMod of the current move target is 0;
 	now the EvadeMod of the current move target is 0;
 	say "[current move target]'s stat modifications were reset by Haze!";
+	
+Chapter 27 - Belly Drum
+
+After performing move effects when current move is Belly Drum:
+	let H be the effective maximum hit points of active character;
+	now H is H divided by 2;
+	deal H damage to active character;
+	now the PhysAttMod of active character is 6;	
+	say "[active character] cut its own HP and maximized attack!"
+	
+Chapter 28 - Acupressure
+
+After performing move effects when current move is Acupressure:
+	let L be a list of numbers;
+	unless the PhysAttMod of current move target is greater than 5, add 1 to L;
+	unless the PhysDefMod of current move target is greater than 5, add 2 to L;
+	unless the SpecAttMod of current move target is greater than 5, add 3 to L;
+	unless the SpecDefMod of current move target is greater than 5, add 4 to L;
+	unless the SpeedMod of current move target is greater than 5, add 5 to L;
+	unless the AccMod of current move target is greater than 5, add 6 to L;
+	unless the EvadeMod of current move target is greater than 5, add 7 to L;
+	let N be entry (a random number between 1 and the number of entries in L) in L;
+	if N is:
+		-- 1:
+			Say "[current move target]'s Physical Attack rose sharply!";
+			increase the PhysAttMod of current move target by 2;
+		-- 2:
+			Say "[current move target]'s Physical Defense rose sharply!";
+			increase the PhysDefMod of current move target by 2;
+		-- 3:
+			Say "[current move target]'s Special Attack rose sharply!";
+			increase the SpecAttMod of current move target by 2;
+		-- 4:	
+			Say "[current move target]'s Special Defense rose sharply!";
+			increase the SpecDefMod of current move target by 2;
+		-- 5:	
+			Say "[current move target]'s Speed rose sharply!";
+			increase the SpeedMod of current move target by 2;
+		-- 6:	
+			Say "[current move target]'s Accuracy rose sharply!";
+			increase the AccMod of current move target by 2;
+		-- 7:	
+			Say "[current move target]'s Evasion rose sharply!";
+			increase the EvadeMod of current move target by 2;
 	
 Specific Pokemon Move Rules ends here.
 
