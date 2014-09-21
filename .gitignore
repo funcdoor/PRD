@@ -1,6 +1,7 @@
 *.html
 *.xml
 *.skein
+*.rtf
 PRD.inform/Settings.plist
 PRD.inform/manifest.plist
 PRD.inform/release.blurb

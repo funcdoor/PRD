@@ -193,21 +193,21 @@
     </dict>
     <key>27</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>1010</integer>
+        <key>Line</key><integer>1016</integer>
         <key>Title</key><string>Book 8 - Specific Move Rules</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>28</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>1014</integer>
+        <key>Line</key><integer>1020</integer>
         <key>Title</key><string>Volume 2 - Game Setup</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>29</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>1064</integer>
+        <key>Line</key><integer>1070</integer>
         <key>Title</key><string>Volume 3 - Scenario</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
