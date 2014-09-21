@@ -380,7 +380,7 @@ Understand "use [pokemove]" as using it on.
 Instead of doing something other than using when combat is happening:
 	say "You must USE <some move you know> ON <some target in this battle>[line break]".
 
-Carry out using it on during combat:
+Carry out using it on while the active character is not preoccupied during combat:
 	say "okay, [active character] will use [the pokemove understood] on [the second noun]!";
 	now the queued action of the active character is the current action;
 	now the actor part of the queued action of the active character is the active character;
