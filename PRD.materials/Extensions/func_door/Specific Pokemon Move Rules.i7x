@@ -428,12 +428,13 @@ The last before performing move effects while the active character is charged (t
 	otherwise:
 		say "[active character]'s Charge fizzles!";
 	now the cond_Charge of active character is false.
-		
+	
 Chapter 16 - Moves with a semi-evading charge-up turn
 
 A pokemon has a truth state called cond_bounce, cond_dig, cond_dive, cond_fly, cond_SkyDrop, cond_SkyDrop_Targeted.
 
 To decide if (P - pokemon) is preoccupied:
+	if the cond_charge-up of P is true, decide yes;
 	if the cond_bounce of P is true, decide yes;
 	if the cond_dig of P is true, decide yes;
 	if the cond_dive of P is true, decide yes;
@@ -521,15 +522,15 @@ To decide if (P - a pokemon) is air-invuln:
 	if the cond_SkyDrop of P is true, decide yes;
 	if the cond_SkyDrop_targeted of P is true, decide yes;
 	decide no.
-	
+
 To decide if (P - a pokemon) is water-invuln:
 	if the cond_dive of P is true, decide yes;
 	decide no.
-	
+
 To decide if (P - a pokemon) is ground-invuln:
 	if the cond_dig of P is true, decide yes;
 	decide no.
-		
+
 The list of air semi-invulnerable weaknesses is always {Gust, Smack Down, Sky Uppercut, Thunder, Twister, Hurricane, perform_SkyDrop}.
 The list of water semi-invulnerable weaknesses is always {Surf[, Whirlpool]}.
 The list of ground semi-invulnerable weaknesses is always {Earthquake, Magnitude[, Fissure]}.
@@ -557,7 +558,36 @@ The last before performing move effects rule while current move target is ground
 	otherwise:
 		say "[current move target] is burrowing and can't be hit!";
 		now current move hits is false;
-	
+
+Chapter 17 - Moves with a charge-up turn besides semi-evasion moves
+
+The list of generic charge-up moves is always {Freeze Shock, Geomancy, Ice Burn, Razor Wind, Skull Bash, Sky Attack, Solar Beam}.
+
+A pokemon has a truth state called cond_charge-up. a pokemon has a number called cond_charge-up_readyby.
+
+Before performing move effects while current move is listed in the list of generic charge-up moves:
+	if the cond_charge-up of active character is false:
+		if current move is skull bash:
+			say "[active character] lowers its head, increasing defense!";
+			increment the SpecDefMod of active character;
+		otherwise:
+			say "[active character] gets ready to do a move!";
+		unless (current move is Solar Beam and current weather is Sunlight):
+			now current move hits is false;
+			now the cond_charge-up of active character is true;
+			now the cond_charge-up_readyby of active character is Current Combat Round plus 1; [this is basically only for razor wind, which isn't even a good move.]
+	otherwise:
+		if current combat round is at least the cond_charge-up_readyby of active character:
+			long_say "current combat round [current combat round], cond_charge-up_readyby of active character [cond_charge-up_readyby of active character].";
+			now the cond_charge-up of active character is false;
+		otherwise:
+			now current move hits is false;
 		
+Instead of doing something while the cond_charge-up of active character is true during combat:
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
 Specific Pokemon Move Rules ends here.
 

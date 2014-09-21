@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x2ba8a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x17aa60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2ba8a0" />
-  <item nodeId="node-0x2ba8a0">
+  <activeNode nodeId="node-0xa4b5120" />
+  <item nodeId="node-0x17aa60">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -17,6 +17,466 @@ You can see PC2, PC3 and PC4 here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="6">NO</temporary>
+    <temporary score="112">NO</temporary>
+    <children>
+      <child nodeId="node-0x67b09e0" />
+      <child nodeId="node-0x8d89f80" />
+    </children>
+  </item>
+  <item nodeId="node-0x8d89f80">
+    <command xml:space="preserve">verbose</command>
+    <result xml:space="preserve">PRD is now in its &quot;verbose&quot; mode, which always gives long descriptions of locations (even if you&apos;ve been there before).
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x8165340" />
+    </children>
+  </item>
+  <item nodeId="node-0x8165340">
+    <command xml:space="preserve">verbose combat</command>
+    <result xml:space="preserve">Enabling verbose combat.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x8df9650" />
+    </children>
+  </item>
+  <item nodeId="node-0x8df9650">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x816de40" />
+    </children>
+  </item>
+  <item nodeId="node-0x816de40">
+    <command xml:space="preserve">use razor wind on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Razor Wind on Alice!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x8df3e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x8df3e30">
+    <command xml:space="preserve">use skull bash on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Skull Bash on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x3e9110" />
+    </children>
+  </item>
+  <item nodeId="node-0x3e9110">
+    <command xml:space="preserve">use sky attack on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Sky Attack on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xa4b5120" />
+    </children>
+  </item>
+  <item nodeId="node-0xa4b5120">
+    <command xml:space="preserve">use solar beam on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Solar Beam on Dan!
+
+Initiative: PC4, PC3, PC2, PC1, Alice, Bob, Carol and Dan.
+
+PC4 uses Solar Beam on Dan!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+PC4 gets ready to do a move!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+
+PC3 uses Sky Attack on Carol!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+PC3 gets ready to do a move!
+Move accuracy 90, modified by accuracy 0 and evasion 0 is 90.
+crit chance level is 1.
+
+PC2 uses Skull Bash on Bob!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+PC2 lowers its head, increasing defense!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+
+PC1 uses Razor Wind on Alice!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+PC1 gets ready to do a move!
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 1.
+Initializing variables. current combat round = 1, cond_charge-up = true, _readyby = 3.
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 1.
+calculating core damage with attack 18, defense 10, power 80.
+before modifiers: 19.
+modified by type effectiveness: 19.
+modified by random variation: 16.
+Dealing standard attack damage from PC1 using Razor Wind on Bob: 
+Bob is damaged for 16 (100% -&gt; 6%)
+
+Alice uses Bite on PC2!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 3.
+Dealing standard attack damage from Alice using Bite on PC2: 
+PC2 is damaged for 3 (100% -&gt; 90%)
+
+Bob uses Bite on PC2!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 3.
+Dealing standard attack damage from Bob using Bite on PC2: 
+PC2 is damaged for 3 (90% -&gt; 79%)
+
+Carol uses Bite on PC2!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 4.
+Dealing standard attack damage from Carol using Bite on PC2: 
+PC2 is damaged for 4 (79% -&gt; 66%)
+PC2 is inflicted with Flinching!
+
+Dan uses Bite on PC2!
+Initializing variables. current combat round = 1, cond_charge-up = false, _readyby = 0.
+Move accuracy 100, modified by accuracy 0 and evasion 0 is 100.
+crit chance level is 0.
+calculating core damage with attack 8, defense 14, power 60.
+before modifiers: 4.
+modified by type effectiveness: 4.
+modified by random variation: 4.
+Dealing standard attack damage from Dan using Bite on PC2: 
+PC2 is damaged for 4 (66% -&gt; 52%)
+PC2 is inflicted with Flinching!
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+  </item>
+  <item nodeId="node-0x67b09e0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Test Chamber
+You can see Alice, Bob, Carol and Dan here.
+
+Beginning combat!
+
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x8d199b0" />
+      <child nodeId="node-0x67ec170" />
+    </children>
+  </item>
+  <item nodeId="node-0x67ec170">
+    <command xml:space="preserve">use solar beam on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Solar Beam on Alice!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xa489500" />
+    </children>
+  </item>
+  <item nodeId="node-0xa489500">
+    <command xml:space="preserve">use solar beam on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Solar Beam on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x67bf600" />
+    </children>
+  </item>
+  <item nodeId="node-0x67bf600">
+    <command xml:space="preserve">use solar beam on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Solar Beam on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x6701180" />
+    </children>
+  </item>
+  <item nodeId="node-0x6701180">
+    <command xml:space="preserve">use solar beam on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Solar Beam on Dan!
+
+PC4 uses Solar Beam on Dan!
+PC4 gets ready to do a move!
+
+PC3 uses Solar Beam on Carol!
+PC3 gets ready to do a move!
+
+PC2 uses Solar Beam on Bob!
+PC2 gets ready to do a move!
+
+PC1 uses Solar Beam on Alice!
+PC1 gets ready to do a move!
+
+Alice uses Bite on PC2!
+It&apos;s a critical hit!
+PC2 is damaged for 6 (100% -&gt; 79%)
+
+Bob uses Bite on PC2!
+PC2 is damaged for 3 (79% -&gt; 69%)
+
+Carol uses Bite on PC2!
+PC2 is damaged for 4 (69% -&gt; 55%)
+
+Dan uses Bite on PC2!
+PC2 is damaged for 4 (55% -&gt; 41%)
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x6701c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6701c70">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You must USE &lt;some move you know&gt; ON &lt;some target in this battle&gt;
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xa48e230" />
+    </children>
+  </item>
+  <item nodeId="node-0xa48e230">
+    <command xml:space="preserve">showme pc2</command>
+    <result xml:space="preserve">PC2 - Player Character
+location: in Test Chamber
+singular-named, proper-named; unlit, inedible, portable; male; ready-for-orders
+printed name: &quot;PC2&quot;
+printed plural name: &quot;Player Characters&quot;
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Ability Slot: 1
+Third Type: NoType
+Second Type: NoType
+First Type: NoType
+Level: 10
+Current Hit Points: 12
+EvadeMod: 0
+AccMod: 0
+SpeedMod: 0
+SpecDefMod: 0
+SpecAttMod: 0
+PhysDefMod: 0
+PhysAttMod: 0
+Queued Action: PC2 using Solar Beam on Bob
+StatusProblem: NullStatus
+BadPoisonCounter: 0
+SleepCounter: 0
+cond_flinch: false
+cond_confusion: 0
+LinePos: 2
+Priority: 0
+InitiativeOrder: 14
+cond_Roost: false
+cond_SmackDown: false
+cond_MagnetRise: 0
+cond_AquaRing: false
+cond_Ingrain: false
+cond_HealBlock: 0
+cond_LeechSeed: false
+cond_Substitute: 0
+cond_LightScreen: 0
+cond_Reflect: 0
+cond_Charge: false
+cond_SkyDrop_Targeted: false
+cond_SkyDrop: false
+cond_fly: false
+cond_dive: false
+cond_dig: false
+cond_bounce: false
+cond_charge-up: true
+PokeAbility: Stench
+Alignment: Player-Aligned
+PokeSpecies: Bulbasaur
+Experience: 0
+SXP: 0
+SDXP: 0
+PDXP: 0
+SAXP: 0
+PAXP: 0
+HPXP: 0
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xa493670" />
+    </children>
+  </item>
+  <item nodeId="node-0xa493670">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You must USE &lt;some move you know&gt; ON &lt;some target in this battle&gt;
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x3cfc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x3cfc20">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xa493c30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa493c30">
+    <command xml:space="preserve">use bulk up</command>
+    <result xml:space="preserve">What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x8d199b0">
+    <command xml:space="preserve">use razor wind on alice</command>
+    <result xml:space="preserve">okay, PC1 will use Razor Wind on Alice!
+
+What will PC2 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x8d12a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x8d12a00">
+    <command xml:space="preserve">use skull bash on bob</command>
+    <result xml:space="preserve">okay, PC2 will use Skull Bash on Bob!
+
+What will PC3 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0xa4ac280" />
+    </children>
+  </item>
+  <item nodeId="node-0xa4ac280">
+    <command xml:space="preserve">use sky attack on carol</command>
+    <result xml:space="preserve">okay, PC3 will use Sky Attack on Carol!
+
+What will PC4 (29/29) do? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x8d4c4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8d4c4a0">
+    <command xml:space="preserve">use solar beam on dan</command>
+    <result xml:space="preserve">okay, PC4 will use Solar Beam on Dan!
+
+PC4 uses Solar Beam on Dan!
+PC4 gets ready to do a move!
+
+PC3 uses Sky Attack on Carol!
+PC3 gets ready to do a move!
+
+PC2 uses Skull Bash on Bob!
+PC2 lowers its head, increasing defense!
+
+PC1 uses Razor Wind on Alice!
+PC1 gets ready to do a move!
+Bob is damaged for 18 (100% -&gt; 0%)
+
+Alice uses Bite on PC2!
+PC2 is damaged for 3 (100% -&gt; 90%)
+
+Bob uses Bite on PC2!
+PC2 is damaged for 3 (90% -&gt; 79%)
+
+Carol uses Bite on PC2!
+PC2 is damaged for 3 (79% -&gt; 69%)
+
+Dan uses Bite on PC2!
+PC2 is damaged for 4 (69% -&gt; 55%)
+
+
+== Starting Round 2 ==
+     Enemy: Alice     Bob       Carol     Dan       
+Your Party: PC1       PC2       PC3       PC4       
+
+What will PC1 (29/29) do? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
   </item>
 </Skein>

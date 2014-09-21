@@ -677,7 +677,7 @@ To decide what number is (n - a number) accevaded by (m - a number):
 	decide on n.
 	
 The last Before performing move effects (This is the decide damage rule):
-	if Current Move Power is greater than 0:
+	if Current Move Power is greater than 0 and current move hits is true:
 		long_say "calculating core damage with attack [Current Move Attack], defense [Current Move Defense], power [Current Move Power]."; 
 		let n be the level of the active character;
 		now n is n times two;
@@ -702,6 +702,7 @@ The last Before performing move effects (This is the decide damage rule):
 
 For Performing Move Effects (this is the Deal Combat Damage To Target Pokemon rule):
 	If Current Move Hits is true and Current Move Power is greater than 0:
+		long_say "Dealing standard attack damage from [active character] using [current move] on [current move target]: ";
 		Deal (Current Move Damage) damage to current move target;
 
 To decide what number is (n - a number) modified by Crits:

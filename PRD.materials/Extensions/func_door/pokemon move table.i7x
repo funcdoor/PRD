@@ -354,6 +354,13 @@ Dive	291	WaterType	Physical	10	--	--	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
 perform_Dive	291	WaterType	Physical	10	80	100	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
 Sky Drop	507	FlyingType	Physical	10	--	--	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
 perform_SkyDrop	507	FlyingType	Physical	10	60	100	0	AnyPokemon	TRUE	0	1	--	--	--	--	--	--	--
+Freeze Shock	553	IceType	Physical	5	140	90	0	AnyAdj	FALSE	0	1	--	--	30	Paralys	--	--	--
+Geomancy	601	FairyType	Status	10	--	--	0	SelfOnly	FALSE	0	1	--	--	100	--	--	--	648
+Ice Burn	554	IceType	Special	5	140	90	0	AnyAdj	FALSE	0	1	--	--	30	Burn	--	--	--
+Razor Wind	13	NormalType	Special	10	80	100	0	AllAdjFoes	FALSE	1	1	--	--	--	--	--	--	--
+Skull Bash	130	NormalType	Physical	10	130	100	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
+Sky Attack	143	FlyingType	Physical	5	140	90	0	AnyPokemon	FALSE	1	1	30	--	--	--	--	--	--
+Solar Beam	76	GrassType	Special	10	120	100	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
 SPmove_confus	--	NoType	Physical	0	50	--	0	SelfOnly	TRUE	0	1	--	--	--	--	--	--	--
 																								
 Pokemon Move Table ends here.

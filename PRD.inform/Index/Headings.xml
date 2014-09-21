@@ -151,63 +151,63 @@
     </dict>
     <key>21</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>743</integer>
+        <key>Line</key><integer>745</integer>
         <key>Title</key><string>Chapter 1 - After Move Effects</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>22</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>860</integer>
+        <key>Line</key><integer>862</integer>
         <key>Title</key><string>Part 8 - Handling Combat Rounds</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>23</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>883</integer>
+        <key>Line</key><integer>885</integer>
         <key>Title</key><string>Part 9 - The end of the combat round</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>24</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>928</integer>
+        <key>Line</key><integer>930</integer>
         <key>Title</key><string>Part 10 - Damage, Healing, and Fainting</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>25</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>966</integer>
+        <key>Line</key><integer>968</integer>
         <key>Title</key><string>Part 11 - Announcement of moves</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>26</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>979</integer>
+        <key>Line</key><integer>981</integer>
         <key>Title</key><string>Part 12 - bullshit</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>27</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>1016</integer>
+        <key>Line</key><integer>1018</integer>
         <key>Title</key><string>Book 8 - Specific Move Rules</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>28</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>1020</integer>
+        <key>Line</key><integer>1022</integer>
         <key>Title</key><string>Volume 2 - Game Setup</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>29</key><dict>
         <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.inform/Source/story.ni</string>
-        <key>Line</key><integer>1070</integer>
+        <key>Line</key><integer>1072</integer>
         <key>Title</key><string>Volume 3 - Scenario</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
@@ -1291,98 +1291,105 @@
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>184</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/func_door/specific pokemon move rules.i7x</string>
+        <key>Line</key><integer>562</integer>
+        <key>Title</key><string>Chapter 17 - Moves with a charge-up turn besides semi-evasion moves</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>185</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>Version 3 of Dynamic Rooms by Aaron Reed begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
-    <key>185</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>186</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>11</integer>
         <key>Title</key><string>Chapter - Adding/Removing Rooms</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>186</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>187</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>13</integer>
         <key>Title</key><string>Section - Initialization</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>187</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>188</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>22</integer>
         <key>Title</key><string>Section - Utility</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>188</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>189</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>34</integer>
         <key>Title</key><string>Section - Creating a room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>189</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>190</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>50</integer>
         <key>Title</key><string>Section - Deleting a room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>190</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>191</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>61</integer>
         <key>Title</key><string>Chapter - Tracking Room Locations</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>191</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>192</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>63</integer>
         <key>Title</key><string>Section - Coordinates</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>192</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>193</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>78</integer>
         <key>Title</key><string>Section - Mapping Directions to Coordinates</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>193</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>194</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>95</integer>
         <key>Title</key><string>Section - Utility Functions</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>194</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>195</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>132</integer>
         <key>Title</key><string>Section - The Validating a map connection rulebook</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>195</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>196</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>141</integer>
         <key>Title</key><string>Section - Built-in validating a map connection rules</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>196</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>197</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>166</integer>
         <key>Title</key><string>Section - Creating a new positioned room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>197</key><dict>
-        <key>Filename</key><string>/Users/davidbutterworth/Documents/PRD/PRD.materials/Extensions/aaron reed/dynamic rooms.i7x</string>
+    <key>198</key><dict>
+        <key>Filename</key><string>/Users/davidbutterworth/Library/Inform/Extensions/aaron reed/dynamic rooms.i7x</string>
         <key>Line</key><integer>181</integer>
         <key>Title</key><string>Section - Testing</string>
         <key>Level</key><integer>5</integer>
