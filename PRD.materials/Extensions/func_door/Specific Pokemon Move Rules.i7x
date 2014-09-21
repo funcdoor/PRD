@@ -429,7 +429,7 @@ The last before performing move effects while the active character is charged (t
 		say "[active character]'s Charge fizzles!";
 	now the cond_Charge of active character is false.
 		
-Chapter 16 - Moves with a charge-up turn
+Chapter 16 - Moves with a semi-evading charge-up turn
 
 A pokemon has a truth state called cond_bounce, cond_dig, cond_dive, cond_fly, cond_SkyDrop, cond_SkyDrop_Targeted.
 
@@ -442,7 +442,7 @@ To decide if (P - pokemon) is preoccupied:
 	if the cond_SkyDrop_Targeted of P is true, decide yes;
 	decide no.
 	
-To decide if (P - pokemon) is not preoccupied:
+To decide if (P - pokemon) is not preoccupied: [used by "Carry out using it on while the active character is not preoccupied during combat" rule]
 	if P is preoccupied, decide no;
 	decide yes.
 
@@ -465,28 +465,51 @@ After performing move effects while current move is Sky Drop:
 Before performing move effects while current move is perform_SkyDrop (this is the drop down with SkyDrop rule):
 	now the cond_SkyDrop_Targeted of current move target is false;
 	
-Instead of doing something while active character is preoccupied during combat:
+Instead of doing something while the cond_bounce of active character is true during combat:
 	let N be the second noun part of the queued action of the active character;
-	if the cond_bounce of active character is true:
-		now the queued action of the active character is the action of the active character using perform_bounce on nothing;
-		now the second noun part of the queued action of the active character is N;
-		now the cond_bounce of active character is false;
-	if the cond_dig of active character is true:
-		now the queued action of the active character is the action of the active character using perform_dig on nothing;
-		now the second noun part of the queued action of the active character is N;
-		now the cond_dig of active character is false;
-	if the cond_dive of active character is true:
-		now the queued action of the active character is the action of the active character using perform_dive on nothing;
-		now the second noun part of the queued action of the active character is N;
-		now the cond_dive of active character is false;
-	if the cond_fly of active character is true:
-		now the queued action of the active character is the action of the active character using perform_fly on nothing;
-		now the second noun part of the queued action of the active character is N;
-		now the cond_fly of active character is false;
-	if the cond_SkyDrop of active character is true:
-		now the queued action of the active character is the action of the active character using perform_SkyDrop on nothing;
-		now the second noun part of the queued action of the active character is N;
-		now the cond_SkyDrop of active character is false;
+	now the queued action of the active character is the action of the active character using perform_bounce on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_bounce of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_dig of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_dig on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_dig of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_dive of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_dive on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_dive of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_fly of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_fly on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_fly of active character is false;
+	now the active character is commanded;
+	repeat with i running through ready-for-orders player characters:
+		now the active character is i;
+		break.
+
+Instead of doing something while the cond_SkyDrop of active character is true during combat:
+	let N be the second noun part of the queued action of the active character;
+	now the queued action of the active character is the action of the active character using perform_SkyDrop on nothing;
+	now the second noun part of the queued action of the active character is N;
+	now the cond_SkyDrop of active character is false;
 	now the active character is commanded;
 	repeat with i running through ready-for-orders player characters:
 		now the active character is i;
