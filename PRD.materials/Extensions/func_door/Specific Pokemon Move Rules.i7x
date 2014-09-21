@@ -622,6 +622,20 @@ After performing move effects when current move is Growth:
 		Increment the PhysAttMod of the active character;
 		increment the SpecAttMod of the active character;
 		say "[active character]'s attack stats are bolstered by the bright sun!"
+
+Chapter 21 - Blizzard, Thunder & Hurricane
+
+Before performing move effects when current move is Blizzard:
+	if current weather is hailing:
+		now current move accuracy is 0;
+		
+Before performing move effects when current move is Thunder or current move is Hurricane:
+	if current weather is rain, now current move accuracy is 0;
+	if current weather is sunlight, now current move accuracy is 50;
+
+Before performing move effects when current move is Blizzard:
+	if current weather is hailing:
+		now current move accuracy is 0;
 		
 Specific Pokemon Move Rules ends here.
 

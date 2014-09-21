@@ -288,7 +288,7 @@ Tail Slap	541	NormalType	Physical	10	25	85	0	AnyAdj	TRUE	0	5	--	--	--	--	--	--	-
 Tail Whip	39	NormalType	Status	30	--	100	0	AllAdjFoes	FALSE	0	1	--	--	100	--	FALSE	FALSE	16							
 Take Down	36	NormalType	Physical	20	90	85	0	AnyAdj	TRUE	0	1	--	--	--	--	--	--	--
 Teeter Dance	298	NormalType	Status	20	--	100	0	AllAdj	FALSE	0	1	--	--	100	confus	--	--	--							
-Thunder	87	ElectricType	Special	10	110	70	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--							
+Thunder	87	ElectricType	Special	10	110	70	0	AnyAdj	FALSE	0	1	--	--	10	Paralys	--	--	--							
 Thunder Fang	422	ElectricType	Physical	15	65	95	0	AnyAdj	TRUE	0	1	--	10	10	Paralys	--	--	--							
 Thunder Punch	9	ElectricType	Physical	15	75	100	0	AnyAdj	TRUE	0	1	--	--	10	Paralys	--	--	--							
 Thunder Shock	84	ElectricType	Special	30	40	100	0	AnyAdj	FALSE	0	1	--	--	10	Paralys	--	--	--							
