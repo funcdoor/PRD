@@ -636,6 +636,29 @@ Before performing move effects when current move is Thunder or current move is H
 Before performing move effects when current move is Blizzard:
 	if current weather is hailing:
 		now current move accuracy is 0;
+
+Chapter 22 - Curse
+
+A pokemon has a truth state called cond_Curse.
+
+After performing move effects when current move is Curse:
+	if active character has the type GhostType:
+		let H be the effective maximum hit points of active character;
+		now H is H divided by 2;
+		say "[active character] hurts itself to curse [current move target]!";
+		deal H damage to active character;
+	otherwise:
+		increment the PhysAttMod of active character;
+		increment the PhysDefMod of active character;
+		decrement the SpeedMod of active character;
+		
+Definition: a pokemon is cursed if the cond_curse of it is true.
+		
+For performing per-character round-end on a cursed thing (called P)(this is the hurt the cursed rule):
+	let H be the effective maximum hit points of P;
+	now H is H divided by 4;
+	say "[P] is hurt by its curse!";
+	deal H damage to P;
 		
 Specific Pokemon Move Rules ends here.
 
