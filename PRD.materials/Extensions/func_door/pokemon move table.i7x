@@ -365,6 +365,11 @@ Solar Beam	76	GrassType	Special	10	120	100	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	
 Moonlight	236	FairyType	Status	5	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 Morning Sun	234	NormalType	Status	5	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
 Synthesis	235	GrassType	Status	5	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
+Curse	174	GhostType	Status	10	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
+Psych Up	244	NormalType	Status	10	--	--	0	AnyAdj	FALSE	0	1	--	--	--	--	--	--	--
+Focus Energy	116	NormalType	Status	30	--	--	0	SelfOnly	FALSE	0	1	--	--	--	--	--	--	--
+Mist	54	IceType	Status	30	--	--	0	WholeTeam	FALSE	0	1	--	--	--	--	--	--	--
+Haze	114	IceType	Status	30	--	--	0	AllPokemon	FALSE	0	1	--	--	--	--	--	--	--
 SPmove_confus	--	NoType	Physical	0	50	--	0	SelfOnly	TRUE	0	1	--	--	--	--	--	--	--
 																							
 Pokemon Move Table ends here.

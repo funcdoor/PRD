@@ -119,7 +119,7 @@ This is the announce blocking leechmove rule:
 	
 This is the announce blocking healing rule:
 	if current move hits is true:
-		if the current move is listed in The list of healing moves or the current move is listed in the list of Sunlight-dependent healing moves AND:
+		if the current move is listed in The list of healing moves or the current move is listed in the list of Sunlight-dependent healing moves:
 			Say "Heal Block prevents healing!";
 
 Chapter 8 - Leech Seed
@@ -252,7 +252,7 @@ The list of Sunlight-dependent healing moves is always {Moonlight, Morning Sun,
 After performing move effects (This is the do healing for Sunlight-dependent healing moves rule):
 	if the current move is listed in The list of Sunlight-dependent healing moves AND current move hits is true:
 		let H be the effective maximum hit points of the current move target;
-		if current weather is sunny:
+		if current weather is Sunlight:
 			now H is H times 3;
 			now H is H divided by 2;
 			say "The sun enhanced the healing!";
@@ -611,7 +611,7 @@ Instead of doing something while the cond_charge-up of active character is true 
 Chapter 19 - Solar Beam
 
 the last before performing move effects when current move is Solar Beam:
-	if current weather is sandstorm or rain:
+	if Current Weather is Sandstorm or Current Weather is Rain:
 		now current move damage is current move damage / 2;
 		say "the weather weakened Solar Beam!"
 	
@@ -659,6 +659,49 @@ For performing per-character round-end on a cursed thing (called P)(this is the 
 	now H is H divided by 4;
 	say "[P] is hurt by its curse!";
 	deal H damage to P;
-		
+	
+Chapter 23 - Psych Up
+
+After performing move effects when current move is Psych Up:
+	now the PhysAttMod of the active character is the PhysAttMod of the current move target;
+	now the PhysDefMod of the active character is the PhysDefMod of the current move target;
+	now the SpecAttMod of the active character is the SpecAttMod of the current move target;
+	now the SpecDefMod of the active character is the SpecDefMod of the current move target;
+	now the SpeedMod of the active character is the SpeedMod of the current move target;
+	now the AccMod of the active character is the AccMod of the current move target;
+	now the EvadeMod of the active character is the EvadeMod of the current move target;
+	say "[active character] copies the stat adjustments on [current move target]!"
+	
+Chapter 24 - Focus Energy
+
+a pokemon has a truth state called cond_FocusEnergy.
+
+Before performing move effects when the cond_focusenergy of the active character is true:
+	increment Current Move CritChance;
+	
+After performing move effects when current move is Focus Energy:
+	now the cond_focusenergy of the active character is true;
+	
+Chapter 25 - Mist
+
+A pokemon has a truth state called cond_Mist.
+
+After performing move effects when current move is Mist:
+	now the cond_Mist of the active character is true;
+	
+The standard stat modifying rule does nothing when the cond_mist of the current move target is true.
+
+Chapter 26 - Haze
+
+After performing move effects when current move is Haze:
+	now the PhysAttMod of the current move target is 0;
+	now the PhysDefMod of the current move target is 0;
+	now the SpecAttMod of the current move target is 0;
+	now the SpecDefMod of the current move target is 0;
+	now the SpeedMod of the current move target is 0;
+	now the AccMod of the current move target is 0;
+	now the EvadeMod of the current move target is 0;
+	say "[current move target]'s stat modifications were reset by Haze!";
+	
 Specific Pokemon Move Rules ends here.
 
