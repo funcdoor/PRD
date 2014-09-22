@@ -407,6 +407,10 @@ Before a pokemon doing something during combat (this is the hit yourself in conf
 			if the cond_confusion of the actor is less than 1:
 				say "[the actor] is no longer confused.";
 			stop the action.
+			
+Before a pokemon doing something while the second noun is a fainted pokemon:
+	say "[the second noun] has fainted and cannot be targeted by [active character]'s attack!";
+	stop the action;
 
 Carry out someone using a pokemove on something during combat:
 	Let L be a list of objects;
@@ -439,6 +443,7 @@ Carry out someone using a pokemove on something during combat:
 	if the targeting of the pokemove understood is WholeTeam:
 		repeat with P running through allied pokemon in the location:
 			Add P to L;
+	Remove the list of fainted pokemon in the location from L;
 	now Current Move Target is the second noun;
 	say the Move Announcement of the pokemove understood;
 	Repeat with K running through L:
@@ -908,7 +913,8 @@ For performing per-character round-end on an asleep thing (called P)(this is the
 		say "[p] wakes up!";
 	Continue the activity.
 		
-For performing per-character round-end on a poisoned thing (called P):	if the StatusProblem of P is Psn:
+For performing per-character round-end on a poisoned thing (called P):
+	if the StatusProblem of P is Psn:
 		say "[P] dissolves a bit from poison!";
 		let N be the effective maximum hit points of P;
 		now N is N divided by 8;
@@ -933,25 +939,25 @@ To Deal (N - number) damage to (P - a pokemon):
 	let PreHP be HP;
 	let MHP be the Effective Maximum Hit Points of P;
 	decrease HP by N;
-	if HP is not greater than 0:
-		Now the Current Hit Points of P is 0;
-		Check Fainting for P;
-	Otherwise:
-		now the current hit points of P is HP;
-	say "[p] is damaged for [n] ([PreHP as a percentage of mhp] -> [Current Hit Points of P as a percentage of mhp])[line break]";
+	now the current hit points of P is HP;
+	say "[p] is damaged for [n] ([PreHP as a percentage of mhp] -> [HP as a percentage of mhp])[line break]";
+	if HP is less than 1:
+		Carry out the fainting activity with P;
 		
 To Heal (N - number) damage to/on (P - a pokemon):
-	let HP be the Current Hit Points of P;
-	let PreHP be HP;
-	let MHP be the Effective Maximum Hit Points of P;
-	increase HP by N;
-	let dif be 0;
-	if HP is greater than MHP:
-		decrease N by HP - MHP;
-		now HP is MHP;
-	now the current hit points of P is HP;
-	say "[p] is healed for [n] ([PreHP as a percentage of mhp] -> [HP as a percentage of mhp])[line break]";
-
+	if P is fainted:
+		say "[p] is unconscious and can't be healed normally!";
+	otherwise:
+		let HP be the Current Hit Points of P;
+		let PreHP be HP;
+		let MHP be the Effective Maximum Hit Points of P;
+		increase HP by N;
+		let dif be 0;
+		if HP is greater than MHP:
+			decrease N by HP - MHP;
+			now HP is MHP;
+		now the current hit points of P is HP;
+		say "[p] is healed for [n] ([PreHP as a percentage of mhp] -> [HP as a percentage of mhp])[line break]";
 
 to say (n - a number) as a percentage of (m - a number):
 	let p be 1.0;
@@ -960,9 +966,15 @@ to say (n - a number) as a percentage of (m - a number):
 	now p is p times 100;
 	now n is p to the nearest whole number;
 	say "[n]%";
+
+A Pokemon can be Conscious or Fainted. A pokemon is usually Conscious.
 	
-To Check Fainting for (P - a pokemon):
-	Do nothing. [lol]
+fainting something is an activity.
+
+For fainting a pokemon (called P):
+	say "[P] faints!";
+	Now the Current Hit Points of P is 0;
+	now P is fainted.
 
 Part 11 - Announcement of moves
 
