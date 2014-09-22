@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1ebd30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x300210" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1ebd30" />
-  <item nodeId="node-0x1ebd30">
+  <activeNode nodeId="node-0x300210" />
+  <item nodeId="node-0x300210">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -17,6 +17,6 @@ You can see PC2, PC3 and PC4 here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="152">NO</temporary>
+    <temporary score="228">NO</temporary>
   </item>
 </Skein>

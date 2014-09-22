@@ -343,9 +343,10 @@ To announce lineup positioning:
 	Say "     Enemy: ";
 	repeat with i running through L:
 		let T be the printed name of i;
+		if i is fainted, now T is "[T] FNT";
 		let N be number of characters in T;
 		say "[T]";
-		let N be 10 minus N;
+		let N be 14 minus N;
 		say N empty spaces;
 	say line break;
 	now L is the list of Player Characters in the location;
@@ -353,9 +354,10 @@ To announce lineup positioning:
 	say "Your Party: ";
 	repeat with i running through L:
 		let T be the printed name of i;
+		if i is fainted, now T is "[T] FNT";
 		let N be number of characters in T;
 		say "[T]";
-		let N be 10 minus N;
+		let N be 14 minus N;
 		say N empty spaces;
 	say line break;
 	say variable letter spacing.
@@ -408,9 +410,13 @@ Before a pokemon doing something during combat (this is the hit yourself in conf
 				say "[the actor] is no longer confused.";
 			stop the action.
 			
-Before a pokemon doing something while the second noun is a fainted pokemon:
-	say "[the second noun] has fainted and cannot be targeted by [active character]'s attack!";
+Before a pokemon doing something while the second noun is a fainted pokemon and combat is happening:
+	say "[the second noun] has fainted and cannot be targeted by [active character]'s move!";
 	stop the action;
+	
+Before a fainted pokemon (called P) doing something during combat:
+	say "[P] has fainted and cannot act!";
+	stop the action.
 
 Carry out someone using a pokemove on something during combat:
 	Let L be a list of objects;
@@ -869,24 +875,38 @@ A Pokemon has a number called InitiativeOrder, Priority.
 
 Every turn during combat (This is the Combat Round Rule):
 	if every player character is commanded:
-		let L be the list of pokemon in the location;
+		let L be the list of conscious pokemon in the location;
 		repeat with P running through L:
 			now InitiativeOrder of P is the priority of P;
 			now InitiativeOrder of P is InitiativeOrder of P times 10000;
 			now InitiativeOrder of P is InitiativeOrder of P plus the effective speed of P;	
 		sort L in reverse InitiativeOrder order;
-		Long_say "Initiative: [L].";
+		say "Initiative: [L].";
 		repeat with P running through L:
 			now the active character is P;
 			try the queued action of P;
+			carry out the performing end of action on activity with P;
 		Carry out the performing end of round activity;
 		Perform Enemy AI Routines;
 		Now every player character is ready-for-orders;
 		Now the active character is PC1;
-		Say "[line break]== Starting Round [Current Combat Round] ==[line break]";
-		announce lineup positioning.
+		if there is a monster in the location:
+			Say "[line break]== Starting Round [Current Combat Round] ==[line break]";
+			announce lineup positioning.
 		
-Part 9 - The end of the combat round
+part 9 - The end of a character's turn
+
+Performing end of action on something is an activity.
+
+For performing end of action on a thing (called P):
+	if the current hit points of P is less than 1 and P is Conscious, carry out the fainting activity with P;
+	if the current hit points of current move target is less than 1 and current move target is Conscious, carry out the fainting activity with P;
+	if every player character in the location is fainted:
+		end the story finally saying "Your entire party has fainted. You will most likely be eaten.";
+	if every monster in the location is fainted:
+		carry out the performing end of combat activity.
+		
+Part 10 - The end of the combat round
 
 Performing end of round is an activity.
 Performing per-character round-end on something is an activity.
@@ -932,7 +952,7 @@ For performing per-character round-end on a poisoned thing (called P):
 To Perform Enemy AI Routines:
 	Do nothing. [lol]
 
-Part 10 -  Damage, Healing, and Fainting
+Part 11 -  Damage, Healing, and Fainting
 
 To Deal (N - number) damage to (P - a pokemon):
 	let HP be the Current Hit Points of P;
@@ -976,7 +996,7 @@ For fainting a pokemon (called P):
 	Now the Current Hit Points of P is 0;
 	now P is fainted.
 
-Part 11 - Announcement of moves
+Part 12 - Announcement of moves
 
 To say the move announcement of (PM - a pokemove):
 	If PM is:
@@ -988,8 +1008,17 @@ To say Generic move announcement of (PM - a pokemove):
 		say "[active character] uses [the pokemove understood]!";
 	Otherwise:
 		say "[active character] uses [the pokemove understood] on [Current Move Target]!"
+		
+Part 13 - Ending Combat
 
-Part 12 - bullshit
+performing end of combat is an activity.
+
+for performing end of combat:
+	now every monster in the location is nowhere;
+	repeat with P running through player characters in the location:
+		carry out the Resetting the volatile stats on activity with P.
+
+Part 14 - bullshit
 
 changing the seed is an action applying to one number. Understand "seed [number]" as changing the seed.
 
@@ -1025,11 +1054,43 @@ To transmogrify (n - a pokemon) into (m - A PokeSpecies):
 	now the second type of n is the secondtype of m;
 	now the third type of n is notype;
 	now the current hit points of n is the effective maximum hit points of n;
-
-Book 8 - Specific Move Rules
+	
+Book 9 - Specific Move Rules
 
 Include Specific Pokemon Move Rules by func_door.
 
+Book 10 - Resetting Objects
+
+Part 1 - Resetting Pokemon
+
+Resetting the volatile stats on something is an activity.
+
+For resetting the volatile stats on something (called P):
+	now the cond_roost of P is false;
+	now the SleepCounter of P is 0;
+	now the cond_flinch of P is false;
+	now the cond_confusion of P is 0;
+	now the cond_smackdown of P is false;
+	now the cond_magnetrise of P is 0;
+	now the cond_aquaring of P is false;
+	now the cond_ingrain of P is false;
+	now the cond_healblock of P is 0;
+	now the cond_leechseed of P is false;
+	now the cond_substitute of P is 0;
+	now the cond_lightscreen of P is 0;
+	now the cond_reflect of P is 0;
+	now the cond_Charge of P is false;
+	now the cond_skydrop_targeted of P is false;
+	now the cond_skydrop of P is false;
+	now the cond_fly of P is false;
+	now the cond_dive of P is false;
+	now the cond_dig of P is false;
+	now the cond_bounce of P is false;
+	now the cond_charge-up of P is false;
+	now the cond_charge-up_readyby of P is 0;
+	now the cond_curse of P is false;
+	now the cond_focusenergy of P is false;
+	
 Volume 2 - Game Setup
 
 Include Dynamic Rooms by Aaron Reed.
